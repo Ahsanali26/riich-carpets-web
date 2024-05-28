@@ -1,0 +1,38 @@
+[
+  {
+    "subtitle": "Welcome to Riich Carpets",
+    "Title": "Your Trusted Partner in Custom-Made Elegance",
+    "Desc": "Discover the epitome of luxury and craftsmanship with Carpets and Rugs, the foremost custom-made carpets and rug company in the GCC region. With a legacy of excellence, we take pride in leading the industry through unparalleled design, innovation, and sustainability.",
+    "icon": "FaHome",
+    "heroimage": "banner.jpeg",
+    "id": "1",
+    "buttonText": "Contact us",
+    "videoButton": false,
+    "learnMoreButtonText": false,
+    "variationLeft": false
+  },
+  {
+    "subtitle": "Real Estate Agency",
+    "Title": "The Right Place of House Finding",
+    "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+    "icon": "FaHome",
+    "heroimage": "62.jpg",
+    "id": "2",
+    "buttonText": "Contact us",
+    "videoButton": false,
+    "learnMoreButtonText": false,
+    "variationLeft": false
+  },
+  {
+    "subtitle": "Real Estate Agency",
+    "Title": "Search and Find Luxury House",
+    "Desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.",
+    "icon": "FaHome",
+    "heroimage": "62.jpg",
+    "id": "3",
+    "buttonText": "Contact us",
+    "videoButton": false,
+    "learnMoreButtonText": false,
+    "variationLeft": false
+  }
+]

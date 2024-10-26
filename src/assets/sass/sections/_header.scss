@@ -315,7 +315,7 @@
 .ltn__main-menu > ul > li:nth-last-child(2) .sub-menu li > .sub-menu,
 .ltn__main-menu > ul > li:nth-last-child(3) ul li > ul,
 .ltn__main-menu > ul > li:nth-last-child(3) .sub-menu li > .sub-menu {
-  left: auto;
+  // left: auto;
   right: 100%;
 }
 .ltn__main-menu li > ul.ltn__sub-menu-col-2,
@@ -635,7 +635,7 @@
   align-items: center;
   -webkit-box-pack: end;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: end;
   ul {
     li {
       list-style: none;

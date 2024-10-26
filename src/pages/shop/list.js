@@ -121,7 +121,7 @@ function ShopList() {
                       </div>
                     </li>
 
-                    <li>
+                    {/* <li>
                       <div className="short-by text-center">
                         <Form.Select
                           className="form-control nice-select"
@@ -138,8 +138,8 @@ function ShopList() {
                           </option>
                         </Form.Select>
                       </div>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <div className="showing-product-number text-right">
                         <span>
                           {`Showing ${offset + pageLimit} of ${
@@ -147,7 +147,7 @@ function ShopList() {
                           } results`}
                         </span>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
 

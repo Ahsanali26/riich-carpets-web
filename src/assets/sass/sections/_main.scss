@@ -524,6 +524,9 @@
   .title-2 {
     font-size: 22px;
   }
+  .ltn__header-options.custom-hamburger{
+    display: block !important;
+  }
 }
 
 @media (max-width: 575px) {
@@ -4696,7 +4699,7 @@ input.cart-plus-minus-box {
   transform: translate3d(100%, -50%, 0);
   -webkit-box-align: end;
   -ms-flex-align: end;
-  align-items: flex-end;
+  align-items: end;
 
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
@@ -6709,7 +6712,7 @@ input.cart-plus-minus-box {
 
     .nav {
       display: flex;
-      justify-content: flex-end;
+      justify-content: end;
       position: relative;
 
       &::before {
@@ -7729,4 +7732,7 @@ input.cart-plus-minus-box {
 }
 .price_filter .price_slider_amount span:nth-child(3) {
   margin: 0 5px;
+}
+.ltn__header-options.custom-hamburger{
+  display: none;
 }

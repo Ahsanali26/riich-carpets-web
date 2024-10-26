@@ -20,7 +20,7 @@ function AboutUsSectionOne() {
                   About Us
                 </h6>
                 <h1 className="section-title">
-                  Trusted Partner in Custom-Made Elegance
+                  Our Commitments
                 </h1>
                 <p>
                 At RIICH, we pride ourselves on providing exceptional value and service through our friendly, knowledgeable team. We specialize in bespoke carpets and rugs, tailored to transform your space according to your unique vision.

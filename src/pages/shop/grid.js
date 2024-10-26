@@ -90,13 +90,13 @@ function ShopGrid() {
   };
 
   return (
-    <LayoutOne topbar={true}>
+    <LayoutOne topbar={false}>
       {/* <!-- BREADCRUMB AREA START --> */}
 
       <ShopBreadCrumb
-        title="Property Grid"
+        title="Our Products"
         sectionPace=""
-        currentSlug="Property Grid"
+        currentSlug="Our Products"
       />
       {/* <!-- BREADCRUMB AREA END -->
     
@@ -109,7 +109,7 @@ function ShopGrid() {
               <Tab.Container defaultActiveKey="first">
                 <div className="ltn__shop-options">
                   <ul>
-                    <li>
+                    {/* <li>
                       <div className="ltn__grid-list-tab-menu">
                         <Nav className="nav">
                           <Nav.Link eventKey="first">
@@ -120,9 +120,9 @@ function ShopGrid() {
                           </Nav.Link>
                         </Nav>
                       </div>
-                    </li>
+                    </li> */}
 
-                    <li>
+                    {/* <li>
                       <div className="short-by text-center">
                         <Form.Select
                           className="form-control nice-select"
@@ -139,8 +139,8 @@ function ShopGrid() {
                           </option>
                         </Form.Select>
                       </div>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <div className="showing-product-number text-right">
                         <span>
                           {`Showing ${offset + pageLimit} of ${
@@ -148,7 +148,7 @@ function ShopGrid() {
                           } results`}
                         </span>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
 

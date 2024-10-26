@@ -7,7 +7,7 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Luxury villa in Rego Park",
+    "title": "Vinyl Flooring",
     "productImg": "vinyl-flooring-3.jpeg",
     "price": 99,
     "priceRange": ["Low Budget"],
@@ -118,7 +118,7 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "New Apartment Nice View",
+    "title": "SPC Flooring",
     "productImg": "spc-flooring-3.jpeg",
     "price": 159,
     "priceRange": ["Medium"],
@@ -296,235 +296,7 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri California Living",
-    "productImg": "3.jpg",
-    "price": 49,
-    "priceRange": ["High Budget"],
-    "discount": 15,
-    "country": false,
-    "district": "Noe Valley Zones",
-    "properties": 3,
-    "featured": false,
-    "new": true,
-    "rent": false,
-    "photo": ["buying", "women", "women"],
-    "video": ["buying", "women"],
-    "bedBath": ["Single", "renting", "selling"],
-    "ratingCount": 2,
-    "rating": 3,
-    "saleCount": 15,
-    "category": ["buying", "selling"],
-    "tag": [
-      "Popular",
-      "desgin",
-      "ux",
-      "usability",
-      "develop",
-      "icon",
-      "Car",
-      "Service",
-      "Repairs",
-      "Auto Parts",
-      "Oil",
-      "Dealer",
-      "Oil Change",
-      "Body Color"
-    ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
-    "description": {
-      "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
-    },
-    "propertyDetails": {
-      "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
-    },
-    "factsAndFeatures": {
-      "livingRoom": "20 x 16 sq feet",
-      "garage": "20 x 16 sq feet",
-      "diningArea": "20 x 16 sq feet",
-      "bedroom": "20 x 16 sq feet",
-      "bathroom": "20 x 16 sq feet",
-      "gymArea": "20 x 16 sq feet",
-      "garden": "20 x 16 sq feet",
-      "parking": "20 x 16 sq feet"
-    },
-
-    "amenities1": [
-      "Air Conditioning",
-      "Gym",
-      "Microwave",
-      "Swimming Pool",
-      "WiFi"
-    ],
-    "amenities2": [
-      "Barbeque",
-      "Recreation",
-      "Microwave",
-      "Basketball Cout",
-      "Fireplace"
-    ],
-    "amenities3": [
-      "Refrigerator",
-      "Window Coverings",
-      "Washer",
-      "24x7 Security",
-      "Indoor Game"
-    ],
-    "AmenitiesList": ["Floor Coverings"],
-    "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
-      "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
-      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
-    },
-
-    "gallery": {
-      "img1": "14.jpg",
-      "img2": "15.jpg",
-      "img3": "16.jpg"
-    },
-    "propertyTypes": ["House", "Single Family", "Luxary Home", "Studio"]
-  },
-  {
-    "id": "4",
-    "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
-    ],
-    "title": "Get Best Property On Our",
-    "productImg": "4.jpg",
-    "price": 19,
-    "priceRange": ["Medium"],
-    "discount": 10,
-    "country": false,
-    "district": "Mission District Area 2",
-    "properties": 1,
-    "featured": true,
-    "new": false,
-    "rent": true,
-    "photo": ["buying", "women", "men"],
-    "video": ["buying", "women", "children"],
-    "bedBath": ["Single", "renting", "selling"],
-    "ratingCount": 5,
-    "rating": 5,
-    "saleCount": 20,
-    "category": ["buying", "renting"],
-    "tag": [
-      "Popular",
-      "desgin",
-      "ux",
-      "usability",
-      "develop",
-      "icon",
-      "Car",
-      "Service",
-      "Repairs",
-      "Auto Parts",
-      "Oil",
-      "Dealer",
-      "Oil Change",
-      "Body Color"
-    ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "New York",
-    "description": {
-      "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
-    },
-    "propertyDetails": {
-      "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
-    },
-    "factsAndFeatures": {
-      "livingRoom": "20 x 16 sq feet",
-      "garage": "20 x 16 sq feet",
-      "diningArea": "20 x 16 sq feet",
-      "bedroom": "20 x 16 sq feet",
-      "bathroom": "20 x 16 sq feet",
-      "gymArea": "20 x 16 sq feet",
-      "garden": "20 x 16 sq feet",
-      "parking": "20 x 16 sq feet"
-    },
-
-    "amenities1": [
-      "Air Conditioning",
-      "Gym",
-      "Microwave",
-      "Swimming Pool",
-      "WiFi"
-    ],
-    "amenities2": [
-      "Barbeque",
-      "Recreation",
-      "Microwave",
-      "Basketball Cout",
-      "Fireplace"
-    ],
-    "amenities3": [
-      "Refrigerator",
-      "Window Coverings",
-      "Washer",
-      "24x7 Security",
-      "Indoor Game"
-    ],
-    "AmenitiesList": ["Floor Coverings"],
-    "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
-      "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
-      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
-    },
-
-    "gallery": {
-      "img1": "14.jpg",
-      "img2": "15.jpg",
-      "img3": "16.jpg"
-    },
-    "propertyTypes": [
-      "House",
-      "Single Family",
-      "Apartment",
-      "Luxary Home",
-      "Studio"
-    ]
-  },
-  {
-    "id": "5",
-    "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
-    ],
-    "title": "New Apartment Nice View",
+    "title": "Axminster",
     "productImg": "axminster-1.jpeg",
     "price": 149,
     "priceRange": ["Low Budget"],
@@ -628,14 +400,14 @@
     "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
   },
   {
-    "id": "6",
+    "id": "4",
     "carousel": [
       { "img": "35.jpg" },
       { "img": "31.jpg" },
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri Los Angles Living",
+    "title": "Carpet Tile",
     "productImg": "carpet-tile-4.jpeg",
     "price": 215,
     "priceRange": ["Low"],
@@ -739,14 +511,14 @@
     "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
   },
   {
-    "id": "7",
+    "id": "5",
     "carousel": [
       { "img": "35.jpg" },
       { "img": "31.jpg" },
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri Los Angles Living",
+    "title": "Gym Flooring",
     "productImg": "gym-flooring-2.jpeg",
     "price": 225,
     "priceRange": ["Low Budget", "Medium"],
@@ -850,14 +622,14 @@
     "propertyTypes": ["Office Villa"]
   },
   {
-    "id": "8",
+    "id": "6",
     "carousel": [
       { "img": "35.jpg" },
       { "img": "31.jpg" },
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "New Apartment Nice View",
+    "title": "Hand Knotted",
     "productImg": "hand-knotted-1.jpeg",
     "price": 500,
     "priceRange": ["Low Budget", "Medium"],
@@ -961,6 +733,228 @@
     "propertyTypes": ["Single Family"]
   },
   {
+    "id": "7",
+    "carousel": [
+      { "img": "35.jpg" },
+      { "img": "31.jpg" },
+      { "img": "32.jpg" },
+      { "img": "33.jpg" }
+    ],
+    "title": "Woven Vinyl",
+    "productImg": "woven-vinyl-1.jpeg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Woven Vinyl",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
+    "id": "8",
+    "carousel": [
+      { "img": "35.jpg" },
+      { "img": "31.jpg" },
+      { "img": "32.jpg" },
+      { "img": "33.jpg" }
+    ],
+    "title": "Hand Tufted",
+    "productImg": "hand-tufted-1.jpg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Hand Tufted",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
     "id": "9",
     "carousel": [
       { "img": "35.jpg" },
@@ -968,13 +962,457 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri Los Angles Living",
-    "productImg": "woven-vinyl-1.jpeg",
+    "title": "Hand Loom",
+    "productImg": "hand-loom-1.jpeg",
     "price": 270,
     "priceRange": ["Low Budget"],
     "discount": 5,
     "country": true,
-    "district": "Woven Vinyl",
+    "district": "Hand Loom",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
+    "id": "10",
+    "carousel": [
+      { "img": "35.jpg" },
+      { "img": "31.jpg" },
+      { "img": "32.jpg" },
+      { "img": "33.jpg" }
+    ],
+    "title": "Hand Woven",
+    "productImg": "hand-woven-1.jpeg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Hand Woven",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
+    "id": "11",
+    "carousel": [
+      { "img": "35.jpg" },
+      { "img": "31.jpg" },
+      { "img": "32.jpg" },
+      { "img": "33.jpg" }
+    ],
+    "title": "Printed Nylon",
+    "productImg": "printed-nylon-1.jpeg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Printed Nylon",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
+    "id": "12",
+    "carousel": [
+      { "img": "35.jpg" },
+      { "img": "31.jpg" },
+      { "img": "32.jpg" },
+      { "img": "33.jpg" }
+    ],
+    "title": "Prayer Room Carpet",
+    "productImg": "printed-nylon-1.jpeg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Prayer Room Carpet",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
+    "id": "13",
+    "carousel": [
+      { "img": "35.jpg" },
+      { "img": "31.jpg" },
+      { "img": "32.jpg" },
+      { "img": "33.jpg" }
+    ],
+    "title": "LVT Flooring",
+    "productImg": "lvt-flooring-3.jpeg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "LVT Flooring",
     "properties": 2,
     "featured": false,
     "new": true,

@@ -1146,7 +1146,7 @@ function HomePage(props) {
   </Container>
 </div> */}
 
-<div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom">
+{/* <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom">
   <Container>
     <Row>
       <Col xs={12}>
@@ -1154,7 +1154,7 @@ function HomePage(props) {
       </Col>
     </Row>
   </Container>
-</div>
+</div> */}
 </LayoutOne>
     </>
   );

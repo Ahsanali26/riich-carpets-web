@@ -58,7 +58,7 @@ const ProductList = ({
 
         <div className="product-info">
           <div className="product-badge-price">
-            <div className="product-badge">
+            {/* <div className="product-badge">
               <ul>
                 <li
                   className={`sale-badge ${productData.rent ? "bg-green" : ""}`}
@@ -66,21 +66,21 @@ const ProductList = ({
                   {badgeText}
                 </li>
               </ul>
-            </div>
+            </div> */}
 
-            <div className="product-price">
+            {/* <div className="product-price">
               <span>
                 {`$ ${productData.price}`}
                 <label>/Month</label>
               </span>
-            </div>
+            </div> */}
           </div>
 
           <h2 className="product-title">
             <Link href={`/${baseUrl}/${slug}`}>{productData.title}</Link>
           </h2>
 
-          <div className="product-img-location">
+          {/* <div className="product-img-location">
             <ul>
               <li>
                 <Link href={`/${baseUrl}/${slug}`}>
@@ -89,9 +89,9 @@ const ProductList = ({
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
-          <ul className="ltn__plot-brief">
+          {/* <ul className="ltn__plot-brief">
             <li>
               <span>{productData.propertyDetails.bedrooms}</span>
               <span className="ms-1">Bedrooms</span>
@@ -104,7 +104,7 @@ const ProductList = ({
               <span>{productData.propertyDetails.area}</span>
               <span className="ms-1">square Ft</span>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="product-info-bottom">
           <div className="real-estate-agent">
@@ -118,7 +118,7 @@ const ProductList = ({
             </div>
           </div>
 
-          <div className="product-hover-action">
+          {/* <div className="product-hover-action">
             <ul>
               <li>
               <OverlayTrigger
@@ -167,7 +167,7 @@ const ProductList = ({
                 </OverlayTrigger>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
 

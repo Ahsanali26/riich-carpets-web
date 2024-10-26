@@ -288,6 +288,8 @@
     }
     img {
       transition: all 0.5s ease 0s;
+      height: 270px;
+      max-height: 270px;
     }
   }
   .product-img-location-gallery {
@@ -334,7 +336,7 @@
     }
   }
   .product-info {
-    padding: 30px 30px 1px;
+    padding: 30px 30px 10px;
   }
   .product-price {
     font-size: 18px;

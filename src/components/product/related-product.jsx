@@ -56,7 +56,7 @@ const RelatedProduct = ({
           </Link>
           <div className="real-estate-agent">
             <div className="agent-img">
-              <Link href={`/${baseUrl}/${slug}`}>
+              <Link href={`/${slug}`}>
                 <img
                   src={`/img/blog/author.jpg`}
                   alt={`${productData.title}`}

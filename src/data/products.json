@@ -2,10 +2,10 @@
   {
     "id": "1",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "vinyl-flooring-1.jpeg" },
+      { "img": "vinyl-flooring-2.jpeg" },
+      { "img": "vinyl-flooring-4.jpeg" },
+      { "img": "vinyl-flooring-3.jpeg" }
     ],
     "title": "Vinyl Flooring",
     "productImg": "vinyl-flooring-3.jpeg",
@@ -46,8 +46,15 @@
     "locantion": "Belmont Gardens, Chicago",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "Vinyl flooring offers a versatile and affordable solution for both residential and commercial spaces. With its wide range of styles, including wood, stone, and tile designs, vinyl flooring can mimic the look of natural materials while providing enhanced durability and ease of maintenance. Resistant to water, scratches, and stains, vinyl flooring is an ideal choice for high-traffic areas such as kitchens, bathrooms, and entryways. Its simple installation process makes it a popular option for DIY enthusiasts and professional installers alike.",
+      "shortDescription": ""
+    },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -102,7 +109,6 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
       "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
     },
-
     "gallery": {
       "img1": "14.jpg",
       "img2": "15.jpg",
@@ -113,10 +119,10 @@
   {
     "id": "2",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "spc-flooring-1.jpeg" },
+      { "img": "spc-flooring-2.jpeg" },
+      { "img": "spc-flooring-3.jpeg" },
+      { "img": "spc-flooring-4.jpeg" }
     ],
     "title": "SPC Flooring",
     "productImg": "spc-flooring-3.jpeg",
@@ -224,8 +230,15 @@
     "locantion": "Belmont Gardens",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "SPC (Stone Plastic Composite) flooring combines the durability of stone with the versatility of plastic to create a robust and resilient flooring option. Its rigid core construction makes it highly resistant to impacts, scratches, and water, suitable for both residential and commercial use. With a wide range of styles and colors available, SPC flooring offers the authentic look of wood, tile, or stone without the maintenance requirements. Easy to install and maintain, SPC flooring provides a long-lasting and stylish solution for any interior space.",
+      "shortDescription": ""
+    },
+    "idealSettings": {
+      "Residential Spaces": "Provides durability and style for living rooms, bedrooms, kitchens, and bathrooms, withstanding daily wear and tear.",
+      "Commercial Areas": "Perfect for offices, retail stores, restaurants, and cafes, offering a stylish and resilient flooring option for high-traffic environments.",
+      "Moisture-Prone Areas": "Resistant to water damage, making it suitable for basements, laundry rooms, and entryways where spills are common.",
+      "Pet-Friendly Environments": "Scratch-resistant and easy to clean, ideal for homes with pets, ensuring a durable and hygienic flooring solution.",
+      "Healthcare Facilities": "Provides a hygienic and low-maintenance flooring option for hospitals, clinics, and assisted living facilities, meeting stringent hygiene standards while offering comfort underfoot."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -291,10 +304,11 @@
   {
     "id": "3",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "axminster-1.jpeg" },
+      { "img": "axminster-2.jpeg" },
+      { "img": "axminster-3.jpeg" },
+      { "img": "axminster-4.jpeg" },
+      { "img": "axminster-5.jpeg" }
     ],
     "title": "Axminster",
     "productImg": "axminster-1.jpeg",
@@ -335,8 +349,15 @@
     "locantion": "Chicago",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "Our Axminster carpets are well known for their rich designs and long lifespan. They are made using a special weaving technique that produces a wide range of colors and fine detail. These carpets combine luxury and functionality, making them ideal for both commercial and residential settings. They are especially great for high-traffic areas. Axminster carpets are a distinguished option for any room due to their superb craftsmanship and classic charm.",
+      "shortDescription": ""
+    },
+    "idealSettings": {
+      "Luxury Hotels": "Lobbies, bedrooms, passages, guest rooms etc.. can benefit greatly from the elegant and long-lasting addition of luxury hotels.",
+      "Conference centers": "Sophisticated but robust, perfect for sizable meeting rooms and event venues.",
+      "High-end Restaurants": "Robust quality and elaborate designs elevate the dining experience.",
+      "Historic Buildings": "Sturdy Axminster carpets will handle the demands of current use while preserving the historic appeal.",
+      "Boutique retail stores": "Use rich textures and intricate patterns to create a classy shopping atmosphere."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -402,10 +423,11 @@
   {
     "id": "4",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "carpet-tile-1.jpeg" },
+      { "img": "carpet-tile-4.jpeg" },
+      { "img": "carpet-tile-3.jpeg" },
+      { "img": "carpet-tile-2.jpeg" },
+      { "img": "carpet-tile-5.jpeg" }
     ],
     "title": "Carpet Tile",
     "productImg": "carpet-tile-4.jpeg",
@@ -446,8 +468,13 @@
     "locantion": "Chicago",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "Carpet tiles offer versatility and convenience, allowing for customizable flooring solutions in various spaces. Their modular design makes installation and maintenance effortless, perfect for both commercial and residential applications. With a wide range of colors, patterns, and textures available, carpet tiles provide endless possibilities for creating unique and stylish interiors.",
+      "shortDescription": ""
+    },
+    "idealSettings": {
+      "Office Spaces": "Versatile and easy to install, providing a practical and stylish flooring solution for work environments.",
+      "Educational Facilities": "Durable and customization, perfect for classrooms, libraries, and common areas in schools and universities.",
+      "Retail Stores": "Offers a visually appealing and durable flooring option for enhancing the ambiance of shopping spaces while withstanding heavy foot traffic."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -560,6 +587,13 @@
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
       "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
     },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
+    },
     "propertyDetails": {
       "propertyId": "HZ29",
       "area": 3450,
@@ -670,6 +704,13 @@
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
       "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -782,6 +823,13 @@
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
       "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
     },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
+    },
     "propertyDetails": {
       "propertyId": "HZ29",
       "area": 3450,
@@ -892,6 +940,13 @@
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
       "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -1004,6 +1059,13 @@
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
       "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
     },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
+    },
     "propertyDetails": {
       "propertyId": "HZ29",
       "area": 3450,
@@ -1114,6 +1176,13 @@
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
       "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -1226,6 +1295,13 @@
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
       "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
     },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
+    },
     "propertyDetails": {
       "propertyId": "HZ29",
       "area": 3450,
@@ -1337,6 +1413,13 @@
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
       "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
     },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
+    },
     "propertyDetails": {
       "propertyId": "HZ29",
       "area": 3450,
@@ -1447,6 +1530,13 @@
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
       "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "idealSettings": {
+      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
+      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
+      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
+      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
+      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
     },
     "propertyDetails": {
       "propertyId": "HZ29",

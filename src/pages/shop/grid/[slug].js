@@ -171,14 +171,14 @@ function ProductDetails({ product }) {
   const [isOpen, setOpen] = useState(false);
   return (
     <>
-      <LayoutOne topbar={true}>
-        <ModalVideo
+      <LayoutOne topbar={false}>
+        {/* <ModalVideo
           channel="youtube"
           autoplay
           isOpen={isOpen}
           videoId="X7R-q9rsrtU"
           onClose={() => setOpen(false)}
-        />
+        /> */}
         {/* <!-- BREADCRUMB AREA START --> */}
 
         <BreadCrumb
@@ -202,7 +202,7 @@ function ProductDetails({ product }) {
                     <div className="ltn__img-slide-item-4">
                       <Link href="#?">
                         <img
-                          src={`/img/img-slide/${single.img}`}
+                          src={`/img/product-3/${single.img}`}
                           alt={`${single.title}`}
                         />
                       </Link>
@@ -221,7 +221,7 @@ function ProductDetails({ product }) {
             <div className="row">
               <div className="col-lg-8 col-md-12">
                 <div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
-                  <div className="ltn__blog-meta">
+                  {/* <div className="ltn__blog-meta">
                     <ul>
                       {
                         (product.featured ? (
@@ -254,19 +254,19 @@ function ProductDetails({ product }) {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   <h1> {product.title}</h1>
-                  <label>
+                  {/* <label>
                     <span className="ltn__secondary-color">
                       <i className="flaticon-pin"></i>
                     </span>{" "}
                     {product.locantion}
-                  </label>
+                  </label> */}
                   <h4 className="title-2"> {product.description.title}</h4>
                   <p>{product.description.fullDescription}</p>
                   <p>{product.description.shortDescription}</p>
 
-                  <h4 className="title-2">Property Detail</h4>
+                  {/* <h4 className="title-2">Property Detail</h4>
                   <div className="property-detail-info-list section-bg-1 clearfix mb-60">
                     <ul>
                       <li>
@@ -496,9 +496,9 @@ function ProductDetails({ product }) {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
 
-                  <h4 className="title-2">Location</h4>
+                  {/* <h4 className="title-2">Location</h4>
                   <div className="property-details-google-map mb-60">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9334.271551495209!2d-73.97198251485975!3d40.668170674982946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0456b5a2e7%3A0x68bdf865dda0b669!2sBrooklyn%20Botanic%20Garden%20Shop!5e0!3m2!1sen!2sbd!4v1590597267201!5m2!1sen!2sbd"
@@ -507,12 +507,11 @@ function ProductDetails({ product }) {
                       frameBorder="0"
                       allowFullScreen=""
                     ></iframe>
-                  </div>
+                  </div> */}
 
-                  <h4 className="title-2">Floor Plans</h4>
-                  {/* <!-- APARTMENTS PLAN AREA START --> */}
+                  {/* <h4 className="title-2">Floor Plans</h4> */}
 
-                  <div className="ltn__apartments-plan-area product-details-apartments-plan mb-60">
+                  {/* <div className="ltn__apartments-plan-area product-details-apartments-plan mb-60">
                     <Tab.Container defaultActiveKey="first">
                       <div className="ltn__tab-menu ltn__tab-menu-3">
                         <Nav className="nav">
@@ -755,8 +754,6 @@ function ProductDetails({ product }) {
                     </Tab.Container>
                   </div>
 
-                  {/* <!-- APARTMENTS PLAN AREA END --> */}
-
                   <h4 className="title-2">Property Video</h4>
                   <div
                     className="ltn__video-bg-img ltn__video-popup-height-500 bg-overlay-black-50 bg-image mb-60"
@@ -768,9 +765,9 @@ function ProductDetails({ product }) {
                     >
                       <FaPlay />
                     </button>
-                  </div>
+                  </div> */}
 
-                  <div className="ltn__shop-details-tab-content-inner--- ltn__shop-details-tab-inner-2 ltn__product-details-review-inner mb-60">
+                  {/* <div className="ltn__shop-details-tab-content-inner--- ltn__shop-details-tab-inner-2 ltn__product-details-review-inner mb-60">
                     <h4 className="title-2">Customer Reviews</h4>
                     <div className="product-ratting">
                       <ul>
@@ -805,7 +802,7 @@ function ProductDetails({ product }) {
                       </ul>
                     </div>
                     <hr />
-                    {/* <!-- comment-area --> */}
+
                     <div className="ltn__comment-area mb-30">
                       <div className="ltn__comment-inner">
                         <ul>
@@ -959,7 +956,7 @@ function ProductDetails({ product }) {
                         </ul>
                       </div>
                     </div>
-                    {/* <!-- comment-reply --> */}
+
                     <div className="ltn__comment-reply-area ltn__form-box mb-30">
                       <form action="#">
                         <h4>Add a Review</h4>
@@ -1043,10 +1040,10 @@ function ProductDetails({ product }) {
                         </div>
                       </form>
                     </div>
-                  </div>
+                  </div> */}
 
-                  <h4 className="title-2">Related Properties</h4>
-                  <Row>
+                  {/* <h4 className="title-2">Related Properties</h4> */}
+                  {/* <Row>
                     {relatedProducts.map((data, key) => {
                       const slug = productSlug(data.title);
                       const discountedPrice = getDiscountPrice(
@@ -1078,13 +1075,12 @@ function ProductDetails({ product }) {
                         </Col>
                       );
                     })}
-                  </Row>
+                  </Row> */}
                 </div>
               </div>
 
-              <div className="col-lg-4">
+              {/* <div className="col-lg-4">
                 <aside className="sidebar ltn__shop-sidebar ltn__right-sidebar---">
-                  {/* <!-- Author Widget --> */}
                   <div className="widget ltn__author-widget">
                     <div className="ltn__author-widget-inner text-center">
                       <img
@@ -1158,7 +1154,7 @@ function ProductDetails({ product }) {
                       </div>
                     </div>
                   </div>
-                  {/* <!-- Search Widget --> */}
+
                   <div className="widget ltn__search-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Search Objects
@@ -1174,7 +1170,7 @@ function ProductDetails({ product }) {
                       </button>
                     </form>
                   </div>
-                  {/* <!-- Form Widget --> */}
+
                   <div className="widget ltn__form-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Drop Messege For Book
@@ -1199,7 +1195,7 @@ function ProductDetails({ product }) {
                       </button>
                     </form>
                   </div>
-                  {/* <!-- Top Rated Product Widget --> */}
+
                   <div className="widget ltn__top-rated-product-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Top Rated Product
@@ -1263,7 +1259,7 @@ function ProductDetails({ product }) {
                       })}
                     </ul>
                   </div>
-                  {/* <!-- Menu Widget (Category) --> */}
+
                   <div className="widget ltn__menu-widget ltn__menu-widget-2--- ltn__menu-widget-2-color-2---">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Top Categories
@@ -1296,7 +1292,7 @@ function ProductDetails({ product }) {
                       </li>
                     </ul>
                   </div>
-                  {/* <!-- Popular Product Widget --> */}
+
                   <div className="widget ltn__popular-product-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Popular Properties
@@ -1306,7 +1302,7 @@ function ProductDetails({ product }) {
                       {...popular_product}
                       className="row ltn__popular-product-widget-active slick-arrow-1"
                     >
-                      {/* <!-- ltn__product-item --> */}
+
 
                       {popularProducts.map((product, key) => {
                         const slug = productSlug(product.title);
@@ -1372,7 +1368,7 @@ function ProductDetails({ product }) {
                       })}
                     </Slider>
                   </div>
-                  {/* <!-- Popular Post Widget --> */}
+
                   <div className="widget ltn__popular-post-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Leatest Blogs
@@ -1420,19 +1416,14 @@ function ProductDetails({ product }) {
                   </div>
 
                   <FollowUs title="Follow Us" />
-
-                  {/* <!-- Tagcloud Widget --> */}
-
                   <Tags title="Popular Tags" />
                 </aside>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
-        {/* <!-- SHOP DETAILS AREA END -->
-
-    <!-- CALL TO ACTION START (call-to-action-6) --> */}
-        <div
+        
+        {/* <div
           className="ltn__call-to-action-area call-to-action-6 before-bg-bottom"
           data-bs-bg="img/1.jpg--"
         >
@@ -1456,8 +1447,8 @@ function ProductDetails({ product }) {
               </div>
             </div>
           </div>
-        </div>
-        {/* <!-- CALL TO ACTION END --> */}
+        </div> */}
+
       </LayoutOne>
 
     </>

@@ -25,12 +25,12 @@ const BreadCrumb = ({ title, currentSlug, sectionPace }) => {
                         <FaAngleRight />
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="/shop">
                         <span className="me-2">Shop</span>
                         <FaAngleRight />
                       </Link>
-                    </li>
+                    </li> */}
                     <li>{currentSlug}</li>
                   </ul>
                 </div>

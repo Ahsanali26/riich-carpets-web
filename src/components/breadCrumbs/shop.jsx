@@ -25,6 +25,12 @@ const ShopBreadCrumb = ({ title, currentSlug, sectionPace }) => {
                         <FaAngleRight />
                       </Link>
                     </li>
+                    {/* <li>
+                      <Link href="/shop/grid">
+                        <span className="me-2">Product</span>
+                        <FaAngleRight />
+                      </Link>
+                    </li> */}
                     <li>{currentSlug}</li>
                   </ul>
                 </div>

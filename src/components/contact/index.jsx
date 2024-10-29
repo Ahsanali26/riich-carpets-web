@@ -14,8 +14,47 @@ import {
   FaPhoneAlt,
   FaArrowDown,
 } from "react-icons/fa";
+import { useState } from "react";
+import { isFormValid } from "../../helpers";
 
 const Contact = () => {
+  const [form, setForm] = useState({
+    data: {
+      name: "",
+      email: "",
+      number: "",
+      message: "",
+    },
+  });
+
+  const [message, setMessage] = useState(null);
+
+  const submitForm = async (e) => {
+    e.preventDefault();
+
+    if (!isFormValid(form.data, setForm).includes(false)) {
+      setForm({ ...form, errors: {} });
+      const response = await fetch("http://localhost:5000", {
+        method: "POST",
+        body: JSON.stringify(form.data),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      const data = await response.json();
+      setMessage(data.message);
+      setForm({
+        ...form,
+        data: {
+          name: "",
+          email: "",
+          number: "",
+          message: "",
+        },
+      });
+    }
+  };
+
   return (
     <>
       {/* <!-- CONTACT ADDRESS AREA START --> */}
@@ -69,70 +108,112 @@ const Contact = () => {
             <div className="col-lg-12">
               <div className="ltn__form-box contact-form-box box-shadow white-bg">
                 <h4 className="title-2">Get A Quote</h4>
-                <form id="contact-form" action="#" method="post">
+                {message ? (
+                  <p
+                    style={{
+                      background: "#4BB543",
+                      color: "#ffffff",
+                      padding: "10px",
+                    }}
+                  >
+                    {message}
+                  </p>
+                ) : null}
+                {form?.errors ? <p></p> : null}
+                <form
+                  id="contact-form"
+                  action="#"
+                  method="post"
+                  onSubmit={submitForm}
+                >
                   <div className="row">
                     <div className="col-md-6">
                       <div className="input-item input-item-name ltn__custom-icon">
                         <input
                           type="text"
                           name="name"
+                          value={form?.data?.name}
                           placeholder="Enter your name"
+                          onChange={(e) =>
+                            setForm({
+                              ...form,
+                              data: { ...form.data, name: e.target.value },
+                            })
+                          }
                         />
                         <span className="inline-icon">
                           <FaUserAlt />
                         </span>
                       </div>
+                      {form?.errors?.name ? <p>{form?.errors?.name}</p> : null}
                     </div>
                     <div className="col-md-6">
                       <div className="input-item input-item-email ltn__custom-icon">
                         <input
                           type="email"
                           name="email"
+                          value={form?.data?.email}
                           placeholder="Enter email address"
+                          onChange={(e) =>
+                            setForm({
+                              ...form,
+                              data: { ...form.data, email: e.target.value },
+                            })
+                          }
                         />
                         <span className="inline-icon">
                           <FaEnvelope />
                         </span>
                       </div>
+                      {form?.errors?.email ? (
+                        <p>{form?.errors?.email}</p>
+                      ) : null}
                     </div>
-                    <div className="col-md-6">
-                      <div className="input-item input-item input-item-email ltn__custom-icon">
-                        <Form.Select className="nice-select">
-                          <option>Select Service Type</option>
-                          <option>Property Management </option>
-                          <option>Mortgage Service </option>
-                          <option>Consulting Service</option>
-                          <option>Home Buying</option>
-                          <option>Home selling</option>
-                          <option>Escrow Services</option>
-                        </Form.Select>
-                        <span className="inline-icon">
-                          <FaArrowDown />
-                        </span>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
+                    <div className="col-md-12">
                       <div className="input-item input-item-phone ltn__custom-icon">
                         <input
                           type="text"
                           name="phone"
+                          value={form?.data?.number}
                           placeholder="Enter phone number"
+                          onChange={(e) =>
+                            setForm({
+                              ...form,
+                              data: {
+                                ...form.data,
+                                number: e.target.value,
+                              },
+                            })
+                          }
                         />
                         <span className="inline-icon">
                           <FaPhoneAlt />
                         </span>
                       </div>
+                      {form?.errors?.number ? (
+                        <p>{form?.errors?.number}</p>
+                      ) : null}
                     </div>
                   </div>
                   <div className="input-item input-item-textarea ltn__custom-icon">
                     <textarea
                       name="message"
                       placeholder="Enter message"
+                      value={form?.data?.message}
+                      onChange={(e) =>
+                        setForm({
+                          ...form,
+                          data: { ...form.data, message: e.target.value },
+                        })
+                      }
                     ></textarea>
                     <span className="inline-icon">
                       <FaPencilAlt />
                     </span>
                   </div>
+                  {form?.errors?.message ? (
+                    <p>{form?.errors?.message}</p>
+                  ) : null}
                   <p>
                     <label className="input-info-save mb-0">
                       <input type="checkbox" name="agree" /> Save my name,

@@ -63,17 +63,17 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
-                <div className="ltn__contact-address-icon">
+                {/* <div className="ltn__contact-address-icon">
                   <img src="/img/icons/10.png" alt="Icon Image" />
-                </div>
+                </div> */}
                 <h3>Email Address</h3>
                 <p>
-                  info@webmail.com <br />
-                  jobs@webexample.com
+                  inforichcarpets@gmail.com
+                  {/* jobs@webexample.com */}
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
                 <div className="ltn__contact-address-icon">
                   <img src="/img/icons/11.png" alt="Icon Image" />
@@ -83,12 +83,12 @@ const Contact = () => {
                   +0123-456789 <br /> +987-6543210
                 </p>
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
-                <div className="ltn__contact-address-icon">
+                {/* <div className="ltn__contact-address-icon">
                   <img src="/img/icons/12.png" alt="Icon Image" />
-                </div>
+                </div> */}
                 <h3>Office Address</h3>
                 <p>
                   18/A, New Born Town Hall <br />
@@ -105,8 +105,8 @@ const Contact = () => {
       <div className="ltn__contact-message-area mb-120 mb--100">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
-              <div className="ltn__form-box contact-form-box box-shadow white-bg">
+            <div className="col-lg-8 mx-auto">
+              <div className="ltn__form-box contact-form-box box-shadow white-bg contactus-form">
                 <h4 className="title-2">Get A Quote</h4>
                 {message ? (
                   <p
@@ -145,7 +145,7 @@ const Contact = () => {
                           <FaUserAlt />
                         </span>
                       </div>
-                      {form?.errors?.name ? <p>{form?.errors?.name}</p> : null}
+                      {form?.errors?.name ? <p className="invalid-text">{form?.errors?.name}</p> : null}
                     </div>
                     <div className="col-md-6">
                       <div className="input-item input-item-email ltn__custom-icon">
@@ -166,7 +166,7 @@ const Contact = () => {
                         </span>
                       </div>
                       {form?.errors?.email ? (
-                        <p>{form?.errors?.email}</p>
+                        <p className="invalid-text">{form?.errors?.email}</p>
                       ) : null}
                     </div>
                     <div className="col-md-12">
@@ -191,7 +191,7 @@ const Contact = () => {
                         </span>
                       </div>
                       {form?.errors?.number ? (
-                        <p>{form?.errors?.number}</p>
+                        <p className="invalid-text">{form?.errors?.number}</p>
                       ) : null}
                     </div>
                   </div>
@@ -212,15 +212,15 @@ const Contact = () => {
                     </span>
                   </div>
                   {form?.errors?.message ? (
-                    <p>{form?.errors?.message}</p>
+                    <p className="invalid-text">{form?.errors?.message}</p>
                   ) : null}
-                  <p>
+                  {/* <p>
                     <label className="input-info-save mb-0">
                       <input type="checkbox" name="agree" /> Save my name,
                       email, and website in this browser for the next time I
                       comment.
                     </label>
-                  </p>
+                  </p> */}
                   <div className="btn-wrapper mt-0">
                     <button
                       className="btn theme-btn-1 btn-effect-1 text-uppercase"
@@ -239,13 +239,13 @@ const Contact = () => {
       {/* <!-- CONTACT MESSAGE AREA END --> */}
 
       {/* <!-- GOOGLE MAP AREA START --> */}
-      <div className="google-map mb-120">
+      {/* <div className="google-map mb-120">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9334.271551495209!2d-73.97198251485975!3d40.668170674982946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0456b5a2e7%3A0x68bdf865dda0b669!2sBrooklyn%20Botanic%20Garden%20Shop!5e0!3m2!1sen!2sbd!4v1590597267201!5m2!1sen!2sbd"
           width="100%"
           height="100%"
         ></iframe>
-      </div>
+      </div> */}
       {/* <!-- GOOGLE MAP AREA END --> */}
     </>
   );

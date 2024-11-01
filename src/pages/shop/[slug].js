@@ -172,14 +172,14 @@ function ProductDetails({ product }) {
 
   return (
     <>
-      <LayoutOne topbar={true}>
-        <ModalVideo
+      <LayoutOne topbar={false}>
+        {/* <ModalVideo
           channel="youtube"
           autoplay
           isOpen={isOpen}
           videoId="X7R-q9rsrtU"
           onClose={() => setOpen(false)}
-        />
+        /> */}
         {/* <!-- BREADCRUMB AREA START --> */}
 
         <BreadCrumb
@@ -261,56 +261,70 @@ function ProductDetails({ product }) {
                     </span>{" "}
                     {product.locantion}
                   </label> */}
-                  <h4 className="title-2" style={{marginTop: "40px"}}> {product.description.title}</h4>
+                  <h4 className="title-2" style={{ marginTop: "40px" }}>
+                    {" "}
+                    {product.description.title}
+                  </h4>
                   <p>{product.description.fullDescription}</p>
                   <p>{product.description.shortDescription}</p>
 
-                  <h4 className="title-2" style={{marginBottom: "10px", marginTop: "40px"}}>Ideal settings</h4>
-                  <div className="ltn__faq-inner ltn__faq-inner-2 ltn__faq-inner-3">
-                    <Row>
-                      {/* First Column */}
-                      <Col xs={12} lg={6}>
-                        <Accordion>
-                          {firstColumnItems.map(([key, description], index) => (
-                            <Accordion.Item
-                              eventKey={index.toString()}
-                              className="card"
-                              key={key}
-                            >
-                              <Accordion.Header className="ltn__card-title">
-                                {key}
-                              </Accordion.Header>
-                              <Accordion.Body>
-                                <p>{description}</p>
-                              </Accordion.Body>
-                            </Accordion.Item>
-                          ))}
-                        </Accordion>
-                      </Col>
+                  {idealSettingsEntries.length > 0 && (
+                    <>
+                      <h4
+                        className="title-2"
+                        style={{ marginBottom: "10px", marginTop: "40px" }}
+                      >
+                        Ideal settings
+                      </h4>
+                      <div className="ltn__faq-inner ltn__faq-inner-2 ltn__faq-inner-3">
+                        <Row>
+                          {/* First Column */}
+                          <Col xs={12} lg={6}>
+                            <Accordion>
+                              {firstColumnItems.map(
+                                ([key, description], index) => (
+                                  <Accordion.Item
+                                    eventKey={index.toString()}
+                                    className="card"
+                                    key={key}
+                                  >
+                                    <Accordion.Header className="ltn__card-title">
+                                      {key}
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                      <p>{description}</p>
+                                    </Accordion.Body>
+                                  </Accordion.Item>
+                                )
+                              )}
+                            </Accordion>
+                          </Col>
 
-                      {/* Second Column */}
-                      <Col xs={12} lg={6}>
-                        <Accordion>
-                          {secondColumnItems.map(
-                            ([key, description], index) => (
-                              <Accordion.Item
-                                eventKey={index.toString()}
-                                className="card"
-                                key={key}
-                              >
-                                <Accordion.Header className="ltn__card-title">
-                                  {key}
-                                </Accordion.Header>
-                                <Accordion.Body>
-                                  <p>{description}</p>
-                                </Accordion.Body>
-                              </Accordion.Item>
-                            )
-                          )}
-                        </Accordion>
-                      </Col>
-                    </Row>
-                  </div>
+                          {/* Second Column */}
+                          <Col xs={12} lg={6}>
+                            <Accordion>
+                              {secondColumnItems.map(
+                                ([key, description], index) => (
+                                  <Accordion.Item
+                                    eventKey={index.toString()}
+                                    className="card"
+                                    key={key}
+                                  >
+                                    <Accordion.Header className="ltn__card-title">
+                                      {key}
+                                    </Accordion.Header>
+                                    <Accordion.Body>
+                                      <p>{description}</p>
+                                    </Accordion.Body>
+                                  </Accordion.Item>
+                                )
+                              )}
+                            </Accordion>
+                          </Col>
+                        </Row>
+                      </div>
+                    </>
+                  )}
 
                   {/* <h4 className="title-2">Property Detail</h4>
                   <div className="property-detail-info-list section-bg-1 clearfix mb-60">

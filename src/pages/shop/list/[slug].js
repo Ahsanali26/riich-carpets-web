@@ -1432,7 +1432,7 @@ function ProductDetails({ product }) {
         {/* <!-- SHOP DETAILS AREA END -->
 
     <!-- CALL TO ACTION START (call-to-action-6) --> */}
-        <div
+        {/* <div
           className="ltn__call-to-action-area call-to-action-6 before-bg-bottom"
           data-bs-bg="img/1.jpg--"
         >
@@ -1456,7 +1456,7 @@ function ProductDetails({ product }) {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* <!-- CALL TO ACTION END --> */}
       </LayoutOne>
 

@@ -925,7 +925,7 @@ textarea {
   font-size: 16px;
   color: var(--ltn__paragraph-color);
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   border-radius: 0;
   padding-right: 40px;
 }
@@ -995,7 +995,7 @@ button:focus {
   position: relative;
   &.ltn__custom-icon .inline-icon {
     position: absolute;
-    top: 35%;
+    top: 40%;
     transform: translateY(-50%);
     right: 20px;
     color: var(--ltn__secondary-color);

@@ -2,6 +2,480 @@
   {
     "id": "1",
     "carousel": [
+      { "img": "hand-tufted-1.jpg" },
+      { "img": "handtufted-2.jpeg" },
+      { "img": "handtufted-3.jpeg" },
+      { "img": "handtufted-4.jpeg" }
+    ],
+    "title": "Hand Tufted",
+    "productImg": "hand-tufted-1.jpg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Hand Tufted",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "The world of carpet production is elevated to new heights with the exquisite craftsmanship of hand-tufted carpets. Renowned for their luxury, creativity, and artistic flair, these carpets stand as a testament to sophistication and elegance.",
+      "shortDescription": "RIICH hand-tufted carpets, in particular, take this art form to unparalleled levels, providing a canvas for designers, architects, and discerning end-users to adorn their spaces with unparalleled beauty and brilliance."
+    },
+    "idealSettings": {
+      "Hotel Lobbies & Guest Suites": "Elevate the ambiance of luxury hotels with opulent and unique carpet designs.",
+      "Condominium Public Spaces": "Infuse character and charm into communal areas with hand-tufted masterpieces.",
+      "Corporate Office Lobbies": "Make a lasting impression on clients and employees with carpets that exude elegance.",
+      "Country Clubs": "Add a touch of sophistication to recreational spaces with bespoke hand-tufted carpets.",
+      "Yachts": "Enhance the grandeur of yachts with carpets that reflect a commitment to luxury and style.",
+      "Theaters": "Create a theatrical experience from the moment patrons enter with captivating carpet designs."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
+    "id": "2",
+    "carousel": [
+      { "img": "hand-knotted-1.jpeg" },
+      { "img": "hand-knotted-2.jpeg" },
+      { "img": "hand-knotted-3.jpeg" }
+    ],
+    "title": "Hand Knotted",
+    "productImg": "hand-knotted-1.jpeg",
+    "price": 500,
+    "priceRange": ["Low Budget", "Medium"],
+    "discount": 5,
+    "country": false,
+    "district": "Hand Knotted",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": true,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 35,
+    "category": ["buying", "renting", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Our Oriental rug, also called a hand-knotted rug. This rug is created completely by hand on a vertical loom. The Knotting is a 2,000-year-old, highly specialized weaving technique that demands extraordinary dexterity, patience, and artistry that’s created with excellence at RIICH.",
+      "shortDescription": ""
+    },
+    "idealSettings": {
+      "Art Galleries": "A plush hand-knotted carpet that accentuates the design and refinement of the gallery area will elevate the atmosphere and showcase artwork.",
+      "Yachts & Luxury Boats": "Elevate the interiors of yachts to a level of comfort and refinement to create a tranquil and fashionable journey.",
+      "High-end Spas": "The luxurious texture and elaborate patterns of hand-knotted carpets provide a serene and sumptuous ambiance in spa relaxation rooms.",
+      "Private Libraries": "Provide a warm and welcoming environment for reading and contemplation, enhancing the comfort and elegance of a private library.",
+      "Home Theaters": "A hand-knotted carpet adds comfort and a touch of elegance to the movie-watching experience, transforming a home theater into an opulent hideaway."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["Single Family"]
+  },
+  {
+    "id": "3",
+    "carousel": [
+      { "img": "hand-loom-1.jpeg" },
+      { "img": "handloom-2.webp" },
+      { "img": "handloom-3.webp" },
+      { "img": "handloom-4.webp" },
+      { "img": "handloom-5.jpeg" },
+      { "img": "handloom-6.jpeg" }
+    ],
+    "title": "Hand Loom",
+    "productImg": "hand-loom-1.jpeg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Hand Loom",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Our handloom carpets are carefully crafted by skilled artisans using traditional weaving techniques, resulting in quality and beauty.",
+      "shortDescription": "Riich Handloom Carpets are versatile and can be used in a variety of interior settings. Whether adorning the floors of a grand living room, adding warmth to a cozy bedroom, or enhancing the elegance of a formal dining area, our handloom carpets bring a touch of luxury and sophistication to any space. From contemporary chic to timeless traditional, our carpets complement a wide range of interior styles and aesthetics, making them a coveted addition to both residential and commercial spaces."
+    },
+    "idealSettings": {
+      "Luxurious Living": "Elevate your living room with a RIICH Hand-loom Carpet, adding sophistication and warmth for entertaining or relaxation.",
+      "Cozy Retreat": "Transform your bedroom into a cozy sanctuary with a soft and elegant RIICH Hand-loom Carpet, perfect for comfort and style.",
+      "Dining Opulence": "Set the scene for memorable meals with a stunning RIICH Hand-loom Carpet, adding richness and elegance to formal dining areas.",
+      "Professional Presence": "Make a statement of sophistication in executive offices with RIICH Hand-loom Carpets, exuding professionalism and luxury.",
+      "Hotel Luxury": "Impress guests in boutique hotels and resorts with RIICH Hand-loom Carpets, elevating ambiance with exquisite craftsmanship."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
+    "id": "10",
+    "carousel": [
+      { "img": "hand-woven-1.jpeg" },
+      { "img": "handwoven-2.jpeg" },
+      { "img": "handwoven-3.jpeg" },
+      { "img": "handwoven-4.jpeg" },
+      { "img": "handwoven-5.jpeg" }
+    ],
+    "title": "Hand Woven",
+    "productImg": "hand-woven-1.jpeg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Hand Woven",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "A woven carpet can be readily seamed across the ends as well as along the sides, whereas a handwoven carpet is simply stitched together along the side. This implies that woven carpet installation takes less carpet, is typically faster, requires less skill, and is less error-prone.",
+      "shortDescription": ""
+    },
+    "idealSettings": {
+      "Bedrooms": "A soft, opulent RIICH Hand-woven carpet will turn your bedroom into a warm haven that offers comfort and flair for your own private haven.",
+      "Formal Dining Areas": "Richness and refinement are added to your formal dining room with a gorgeous RIICH Hand-woven carpet, which will elevate your dining experience.",
+      "Executive Offices": "Add a touch of luxury to your business environment and make a statement of sophistication and professionalism in your executive offices with a RIICH Hand-woven Carpet.",
+      "Boutique Hotels & Resorts": "Show off to your visitors the beautiful craftsmanship of RIICH Hand-woven Carpets, which are ideal for hallways, rooms, and other areas."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
+    "id": "5",
+    "carousel": [
       { "img": "vinyl-flooring-1.jpeg" },
       { "img": "vinyl-flooring-2.jpeg" },
       { "img": "vinyl-flooring-4.jpeg" },
@@ -117,7 +591,7 @@
     "propertyTypes": ["House", "Office Villa", "Luxary Home"]
   },
   {
-    "id": "2",
+    "id": "6",
     "carousel": [
       { "img": "spc-flooring-1.jpeg" },
       { "img": "spc-flooring-2.jpeg" },
@@ -302,7 +776,7 @@
     "propertyTypes": ["Apartment", "Office Villa", "Luxary Home", "Studio"]
   },
   {
-    "id": "3",
+    "id": "7",
     "carousel": [
       { "img": "axminster-1.jpeg" },
       { "img": "axminster-2.jpeg" },
@@ -421,7 +895,7 @@
     "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
   },
   {
-    "id": "4",
+    "id": "8",
     "carousel": [
       { "img": "carpet-tile-1.jpeg" },
       { "img": "carpet-tile-4.jpeg" },
@@ -538,12 +1012,13 @@
     "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
   },
   {
-    "id": "5",
+    "id": "9",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "gym-flooring-1.jpeg" },
+      { "img": "gym-flooring-4.jpeg" },
+      { "img": "gym-flooring-2.jpeg" },
+      { "img": "gym-flooring-3.jpeg" },
+      { "img": "gym-flooring-5.jpeg" }
     ],
     "title": "Gym Flooring",
     "productImg": "gym-flooring-2.jpeg",
@@ -584,15 +1059,14 @@
     "locantion": "Chicago",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "Gym flooring is designed to withstand the rigorous demands of athletic activities while providing safety, comfort, and durability. With options ranging from rubber tiles to interlocking mats, gym flooring offers impact absorption and slip resistance to reduce the risk of injury during workouts. Its resilient construction also minimizes noise and vibration, creating a conducive environment for fitness enthusiasts. Whether in commercial gyms, home workout spaces, or sports facilities, gym flooring ensures a supportive surface for all types of exercise routines.",
+      "shortDescription": ""
     },
     "idealSettings": {
-      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
-      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
-      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
-      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
-      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
+      "Commercial Gyms": "Provides a durable and shock-absorbent surface for weightlifting, cardio, and high-intensity workouts.",
+      "Home Gyms": "Offers a comfortable and safe flooring option for personal fitness spaces, accommodating various exercise routines.",
+      "Fitness Studios": "Creates a supportive and slip-resistant surface for group exercise classes, yoga sessions, and functional training.",
+      "Sports Facilities": "Enhances performance and safety in indoor courts, training areas, and multipurpose sports complexes, catering to athletes of all levels."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -656,130 +1130,13 @@
     "propertyTypes": ["Office Villa"]
   },
   {
-    "id": "6",
+    "id": "10",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
-    ],
-    "title": "Hand Knotted",
-    "productImg": "hand-knotted-1.jpeg",
-    "price": 500,
-    "priceRange": ["Low Budget", "Medium"],
-    "discount": 5,
-    "country": false,
-    "district": "Hand Knotted",
-    "properties": 2,
-    "featured": false,
-    "new": true,
-    "rent": true,
-    "photo": ["buying", "women", "women"],
-    "video": ["buying", "women"],
-    "bedBath": ["Single", "renting", "selling"],
-    "ratingCount": 5,
-    "rating": 5,
-    "saleCount": 35,
-    "category": ["buying", "renting", "selling"],
-    "tag": [
-      "Popular",
-      "desgin",
-      "ux",
-      "usability",
-      "develop",
-      "icon",
-      "Car",
-      "Service",
-      "Repairs",
-      "Auto Parts",
-      "Oil",
-      "Dealer",
-      "Oil Change",
-      "Body Color"
-    ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
-    "description": {
-      "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
-    },
-    "idealSettings": {
-      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
-      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
-      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
-      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
-      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
-    },
-    "propertyDetails": {
-      "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
-    },
-    "factsAndFeatures": {
-      "livingRoom": "20 x 16 sq feet",
-      "garage": "20 x 16 sq feet",
-      "diningArea": "20 x 16 sq feet",
-      "bedroom": "20 x 16 sq feet",
-      "bathroom": "20 x 16 sq feet",
-      "gymArea": "20 x 16 sq feet",
-      "garden": "20 x 16 sq feet",
-      "parking": "20 x 16 sq feet"
-    },
-
-    "amenities1": [
-      "Air Conditioning",
-      "Gym",
-      "Microwave",
-      "Swimming Pool",
-      "WiFi"
-    ],
-    "amenities2": [
-      "Barbeque",
-      "Recreation",
-      "Microwave",
-      "Basketball Cout",
-      "Fireplace"
-    ],
-    "amenities3": [
-      "Refrigerator",
-      "Window Coverings",
-      "Washer",
-      "24x7 Security",
-      "Indoor Game"
-    ],
-    "AmenitiesList": ["Supermarket"],
-    "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
-      "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
-      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
-    },
-
-    "gallery": {
-      "img1": "14.jpg",
-      "img2": "15.jpg",
-      "img3": "16.jpg"
-    },
-    "propertyTypes": ["Single Family"]
-  },
-  {
-    "id": "7",
-    "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "woven-vinyl-1.jpeg" },
+      { "img": "woven-vinyl-4.jpeg" },
+      { "img": "woven-vinyl-2.jpeg" },
+      { "img": "woven-vinyl-3.jpeg" },
+      { "img": "woven-vinyl-5.jpeg" }
     ],
     "title": "Woven Vinyl",
     "productImg": "woven-vinyl-1.jpeg",
@@ -820,369 +1177,15 @@
     "locantion": "Chicago",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "Our Woven vinyl flooring combines the durability of vinyl with the look and feel of traditional woven textiles. Its resilient construction makes it ideal for high-traffic areas, while its modern designs add a touch of sophistication to any space. Easy to clean and maintain, woven vinyl flooring offers both style and practicality for residential and commercial settings.",
+      "shortDescription": ""
     },
     "idealSettings": {
-      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
-      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
-      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
-      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
-      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
-    },
-    "propertyDetails": {
-      "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
-    },
-    "factsAndFeatures": {
-      "livingRoom": "20 x 16 sq feet",
-      "garage": "20 x 16 sq feet",
-      "diningArea": "20 x 16 sq feet",
-      "bedroom": "20 x 16 sq feet",
-      "bathroom": "20 x 16 sq feet",
-      "gymArea": "20 x 16 sq feet",
-      "garden": "20 x 16 sq feet",
-      "parking": "20 x 16 sq feet"
-    },
-
-    "amenities1": [
-      "Air Conditioning",
-      "Gym",
-      "Microwave",
-      "Swimming Pool",
-      "WiFi"
-    ],
-    "amenities2": [
-      "Barbeque",
-      "Recreation",
-      "Microwave",
-      "Basketball Cout",
-      "Fireplace"
-    ],
-    "amenities3": [
-      "Refrigerator",
-      "Window Coverings",
-      "Washer",
-      "24x7 Security",
-      "Indoor Game"
-    ],
-    "AmenitiesList": ["Supermarket"],
-    "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
-      "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
-      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
-    },
-
-    "gallery": {
-      "img1": "14.jpg",
-      "img2": "15.jpg",
-      "img3": "16.jpg"
-    },
-    "propertyTypes": ["House", "Single Family"]
-  },
-  {
-    "id": "8",
-    "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
-    ],
-    "title": "Hand Tufted",
-    "productImg": "hand-tufted-1.jpg",
-    "price": 270,
-    "priceRange": ["Low Budget"],
-    "discount": 5,
-    "country": true,
-    "district": "Hand Tufted",
-    "properties": 2,
-    "featured": false,
-    "new": true,
-    "rent": false,
-    "photo": ["buying", "women", "women"],
-    "video": ["buying", "women"],
-    "bedBath": ["Single", "renting", "selling"],
-    "ratingCount": 5,
-    "rating": 5,
-    "saleCount": 90,
-    "category": ["buying", "selling"],
-    "tag": [
-      "Popular",
-      "desgin",
-      "ux",
-      "usability",
-      "develop",
-      "icon",
-      "Car",
-      "Service",
-      "Repairs",
-      "Auto Parts",
-      "Oil",
-      "Dealer",
-      "Oil Change",
-      "Body Color"
-    ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
-    "description": {
-      "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
-    },
-    "idealSettings": {
-      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
-      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
-      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
-      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
-      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
-    },
-    "propertyDetails": {
-      "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
-    },
-    "factsAndFeatures": {
-      "livingRoom": "20 x 16 sq feet",
-      "garage": "20 x 16 sq feet",
-      "diningArea": "20 x 16 sq feet",
-      "bedroom": "20 x 16 sq feet",
-      "bathroom": "20 x 16 sq feet",
-      "gymArea": "20 x 16 sq feet",
-      "garden": "20 x 16 sq feet",
-      "parking": "20 x 16 sq feet"
-    },
-
-    "amenities1": [
-      "Air Conditioning",
-      "Gym",
-      "Microwave",
-      "Swimming Pool",
-      "WiFi"
-    ],
-    "amenities2": [
-      "Barbeque",
-      "Recreation",
-      "Microwave",
-      "Basketball Cout",
-      "Fireplace"
-    ],
-    "amenities3": [
-      "Refrigerator",
-      "Window Coverings",
-      "Washer",
-      "24x7 Security",
-      "Indoor Game"
-    ],
-    "AmenitiesList": ["Supermarket"],
-    "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
-      "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
-      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
-    },
-
-    "gallery": {
-      "img1": "14.jpg",
-      "img2": "15.jpg",
-      "img3": "16.jpg"
-    },
-    "propertyTypes": ["House", "Single Family"]
-  },
-  {
-    "id": "9",
-    "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
-    ],
-    "title": "Hand Loom",
-    "productImg": "hand-loom-1.jpeg",
-    "price": 270,
-    "priceRange": ["Low Budget"],
-    "discount": 5,
-    "country": true,
-    "district": "Hand Loom",
-    "properties": 2,
-    "featured": false,
-    "new": true,
-    "rent": false,
-    "photo": ["buying", "women", "women"],
-    "video": ["buying", "women"],
-    "bedBath": ["Single", "renting", "selling"],
-    "ratingCount": 5,
-    "rating": 5,
-    "saleCount": 90,
-    "category": ["buying", "selling"],
-    "tag": [
-      "Popular",
-      "desgin",
-      "ux",
-      "usability",
-      "develop",
-      "icon",
-      "Car",
-      "Service",
-      "Repairs",
-      "Auto Parts",
-      "Oil",
-      "Dealer",
-      "Oil Change",
-      "Body Color"
-    ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
-    "description": {
-      "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
-    },
-    "idealSettings": {
-      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
-      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
-      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
-      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
-      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
-    },
-    "propertyDetails": {
-      "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
-    },
-    "factsAndFeatures": {
-      "livingRoom": "20 x 16 sq feet",
-      "garage": "20 x 16 sq feet",
-      "diningArea": "20 x 16 sq feet",
-      "bedroom": "20 x 16 sq feet",
-      "bathroom": "20 x 16 sq feet",
-      "gymArea": "20 x 16 sq feet",
-      "garden": "20 x 16 sq feet",
-      "parking": "20 x 16 sq feet"
-    },
-
-    "amenities1": [
-      "Air Conditioning",
-      "Gym",
-      "Microwave",
-      "Swimming Pool",
-      "WiFi"
-    ],
-    "amenities2": [
-      "Barbeque",
-      "Recreation",
-      "Microwave",
-      "Basketball Cout",
-      "Fireplace"
-    ],
-    "amenities3": [
-      "Refrigerator",
-      "Window Coverings",
-      "Washer",
-      "24x7 Security",
-      "Indoor Game"
-    ],
-    "AmenitiesList": ["Supermarket"],
-    "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
-      "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
-      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
-    },
-
-    "gallery": {
-      "img1": "14.jpg",
-      "img2": "15.jpg",
-      "img3": "16.jpg"
-    },
-    "propertyTypes": ["House", "Single Family"]
-  },
-  {
-    "id": "10",
-    "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
-    ],
-    "title": "Hand Woven",
-    "productImg": "hand-woven-1.jpeg",
-    "price": 270,
-    "priceRange": ["Low Budget"],
-    "discount": 5,
-    "country": true,
-    "district": "Hand Woven",
-    "properties": 2,
-    "featured": false,
-    "new": true,
-    "rent": false,
-    "photo": ["buying", "women", "women"],
-    "video": ["buying", "women"],
-    "bedBath": ["Single", "renting", "selling"],
-    "ratingCount": 5,
-    "rating": 5,
-    "saleCount": 90,
-    "category": ["buying", "selling"],
-    "tag": [
-      "Popular",
-      "desgin",
-      "ux",
-      "usability",
-      "develop",
-      "icon",
-      "Car",
-      "Service",
-      "Repairs",
-      "Auto Parts",
-      "Oil",
-      "Dealer",
-      "Oil Change",
-      "Body Color"
-    ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
-    "description": {
-      "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
-    },
-    "idealSettings": {
-      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
-      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
-      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
-      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
-      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
+      "Kitchen and Dining Areas": "Resilient and easy to clean, perfect for withstanding spills and heavy foot traffic.",
+      "Commercial Spaces": "Provides durability and style for offices, retail stores, and hospitality venues, enhancing the overall aesthetic.",
+      "Bathrooms and Laundry Rooms": "Water-resistant and low-maintenance, offering a practical flooring solution for moisture-prone areas.",
+      "Outdoor Spaces": "Weather-resistant and durable, ideal for patios, decks, and poolside areas, adding both style and functionality.",
+      "Children's Playrooms": "Soft underfoot and easy to clean, creating a safe and comfortable environment for playtime activities."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -1248,10 +1251,10 @@
   {
     "id": "11",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "printed-nylon-1.jpeg" },
+      { "img": "printed-nylon-2.jpeg" },
+      { "img": "printed-nylon-3.jpeg" },
+      { "img": "printed-nylon-4.jpeg" }
     ],
     "title": "Printed Nylon",
     "productImg": "printed-nylon-1.jpeg",
@@ -1292,15 +1295,15 @@
     "locantion": "Chicago",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "Prayer room carpets are designed with comfort and reverence in mind, featuring soft, plush textures that provide a serene space for worship. Their intricate, spiritual designs add to the room's tranquility, enhancing the overall ambiance. Made with durable materials, these carpets are easy to maintain, ensuring a clean and inviting environment for prayer. Suitable for both home and community prayer spaces, they offer a blend of elegance and functionality",
+      "shortDescription": ""
     },
     "idealSettings": {
-      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
-      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
-      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
-      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
-      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
+      "Commercial Offices": "Durable and easy to maintain, perfect for high-traffic workspaces.",
+      "Hotel Corridors": "Vibrant designs and resilience make them ideal for busy hallways.",
+      "Retail Stores": "Adds aesthetic appeal and withstands heavy foot traffic.",
+      "School Classrooms": "Durable and easy to clean, great for educational environments.",
+      "Healthcare Facilities": "Hygienic and robust, suitable for clinics and hospitals."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -1366,13 +1369,12 @@
   {
     "id": "12",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "prayer-carpet-1.jpg" },
+      { "img": "prayer-carpet-2.jpg" },
+      { "img": "prayer-carpet-3.jpg" }
     ],
     "title": "Prayer Room Carpet",
-    "productImg": "printed-nylon-1.jpeg",
+    "productImg": "prayer-carpet-1.jpg",
     "price": 270,
     "priceRange": ["Low Budget"],
     "discount": 5,
@@ -1410,16 +1412,10 @@
     "locantion": "Chicago",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "Prayer room carpets are designed with comfort and reverence in mind, featuring soft, plush textures that provide a serene space for worship. Their intricate, spiritual designs add to the room's tranquility, enhancing the overall ambiance. Made with durable materials, these carpets are easy to maintain, ensuring a clean and inviting environment for prayer. Suitable for both home and community prayer spaces, they offer a blend of elegance and functionality.",
+      "shortDescription": ""
     },
-    "idealSettings": {
-      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
-      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
-      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
-      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
-      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
-    },
+    "idealSettings": {},
     "propertyDetails": {
       "propertyId": "HZ29",
       "area": 3450,
@@ -1484,10 +1480,9 @@
   {
     "id": "13",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "lvt-flooring-1.jpeg" },
+      { "img": "lvt-flooring-2.jpeg" },
+      { "img": "lvt-flooring-3.jpeg" }
     ],
     "title": "LVT Flooring",
     "productImg": "lvt-flooring-3.jpeg",
@@ -1528,15 +1523,133 @@
     "locantion": "Chicago",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "LVT (Luxury Vinyl Tile) flooring offers the perfect blend of style, durability, and affordability. With its realistic wood, stone, or tile designs, LVT flooring adds a touch of elegance to any space. Resistant to scratches, stains, and water, it provides a low-maintenance flooring solution for both residential and commercial settings. Easy to install and maintain, LVT flooring is an ideal choice for those seeking beauty and practicality in their floors.",
+      "shortDescription": ""
     },
     "idealSettings": {
-      "Kitchen": "Resistant to spills and stains, perfect for withstanding the demands of cooking and meal prep.",
-      "Bathroom": "Waterproof and easy to clean, providing a durable flooring option for moisture-prone areas.",
-      "Commercial Spaces": "Offers durability and versatility for offices, retail stores, and hospitality venues, enduring heavy foot traffic with style.",
-      "Basements": "Moisture-resistant and low-maintenance, ideal for creating functional living spaces below ground level.",
-      "Rental Properties": "Easy to install and replace, providing landlords with a cost-effective and attractive flooring solution for rental units."
+      "Residential Interiors": "Enhances the beauty of living rooms, kitchens, bathrooms, and bedrooms with its stylish and durable design.",
+      "Commercial Spaces": "Perfect for offices, retail stores, restaurants, and hospitality venues, offering a sophisticated flooring option that can withstand heavy foot traffic.",
+      "Moisture-Prone Areas": "Perfect for offices, retail stores, restaurants, and hospitality venues, offering a sophisticated flooring option that can withstand heavy foot traffic.",
+      "High-Traffic Environments": "Resistant to water damage, making it suitable for basements, laundry rooms, and entryways where spills are common."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": 3450,
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Supermarket"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Single Family"]
+  },
+  {
+    "id": "14",
+    "carousel": [
+      { "img": "kilim-1.jpeg" },
+      { "img": "kilim-2.jpeg" },
+      { "img": "kilim-3.jpeg" },
+      { "img": "kilim-4.jpeg" },
+      { "img": "kilim-5.jpeg" }
+    ],
+    "title": "KILIM Carpet",
+    "productImg": "kilim-4.jpeg",
+    "price": 270,
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "LVT Flooring",
+    "properties": 2,
+    "featured": false,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 5,
+    "saleCount": 90,
+    "category": ["buying", "selling"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Kilim carpets are flat-woven rugs known for their vibrant colors, intricate patterns, and unique textures. Made from natural fibers like wool and cotton, they are lightweight, durable, and often feature geometric shapes and tribal motifs. Kilim carpets are characterized by their earthy palettes and the use of vegetable dyes.",
+      "shortDescription": "Kilim carpets are not only functional but also artistic pieces that can elevate the aesthetic of any space. Their versatility and unique designs make them suitable for a wide range of settings, from modern homes to traditional spaces, allowing them to fit seamlessly into various decor styles."
+    },
+    "idealSettings": {
+      "Living Rooms": "Bring warmth and character to living rooms, adding a cozy yet sophisticated touch with their vibrant colors and intricate patterns.",
+      "Bedrooms": "In bedrooms, Kilim rugs provide a comfortable, soft surface underfoot while adding a splash of color and texture.",
+      "Dining Areas": "A Kilim carpet in the dining area adds a touch of elegance and artistry. Its flat-weave design is durable and easy to clean, making it a practical yet beautiful choice for high-traffic areas.",
+      "Entryways and Hallways": "ilim rugs are ideal for entryways and hallways, offering a durable yet stylish solution that can handle foot traffic while leaving a lasting impression with their vibrant designs and unique patterns.",
+      "Outdoor Spaces": "Durable and weather-resistant, Kilim carpets are an excellent choice for outdoor spaces like patios or balconies."
     },
     "propertyDetails": {
       "propertyId": "HZ29",

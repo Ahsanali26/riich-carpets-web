@@ -7,7 +7,7 @@ const BreadCrumb = ({ title, currentSlug, sectionPace }) => {
     <>
       <div
         className={`ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image ${sectionPace}`}
-        style={{ backgroundImage: `url("../img/bg/14.jpg")` }}
+        // style={{ backgroundImage: `url("../img/bg/14.jpg")` }}
       >
         <Container>
           <Row>

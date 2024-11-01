@@ -17,7 +17,7 @@ const Footer = function () {
   return (
     <>
       {/* <!-- FOOTER AREA START --> */}
-      <footer className="ltn__footer-area  ">
+      {/* <footer className="ltn__footer-area  ">
         <div className="footer-top-area  section-bg-2 plr--5">
           <Container fluid>
             <Row>
@@ -25,7 +25,6 @@ const Footer = function () {
                 <div className="footer-widget footer-about-widget">
                   <div className="footer-logo">
                     <div className="site-logo">
-                      {/* <img src="/img/logo.png" alt="Logo" /> */}
                       <img src="/img/logo-2.png" alt="Logo" />
                     </div>
                   </div>
@@ -228,7 +227,7 @@ const Footer = function () {
             </Row>
           </div>
         </div>
-      </footer>
+      </footer> */}
       {/* <!-- FOOTER AREA END --> */}
     </>
   );

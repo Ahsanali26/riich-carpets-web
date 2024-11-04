@@ -12,7 +12,7 @@ const getMessage = (name, email, message, phone) => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
       <style>
-          body, h1, h4, p, blockquote {
+          body, h1, h4, h3, p, blockquote {
               font-family: Arial, Helvetica, sans-serif; /* Add the desired font family here */
               color: #3c3c3c;
           }
@@ -27,12 +27,12 @@ const getMessage = (name, email, message, phone) => {
       <p>
         A new potential customer has contacted through the website. Please get in touch with the customer ASAP.
       </p>
-      <h4>Email:</h4>
-      <blockquote>${email || "No Email Provided"}</blockquote>
-      <h4>Phone:</h4>
-      <blockquote>${phone || "No Phone Provided"}</blockquote>
-      <h4>Customer Message:</h4>
-      <blockquote>${message || "No Message Provided"}</blockquote>
+      <h3>Email:</h3>
+      <p>${email || "No Email Provided"}</p>
+      <h3>Phone:</h3>
+      <p>${phone || "No Phone Provided"}</p>
+      <h3>Customer Message:</h3>
+      <p>${message || "No Message Provided"}</p>
       <p><small>This is an auto-generated email on submission of contact form on the <b>RIICH CARPETS & RUGS</b> website.</small></p>
   </body>
   

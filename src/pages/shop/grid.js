@@ -4,17 +4,14 @@ import ShopBreadCrumb from "@/components/breadCrumbs/shop";
 import { getSortedProducts, productSlug,getDiscountPrice } from "@/lib/product";
 import { LayoutOne } from "@/layouts";
 import {
-  FaThLarge,
-  FaThList,
   FaAngleDoubleLeft,
   FaAngleDoubleRight,
 } from "react-icons/fa";
-import { Container, Row, Col, Nav, Tab, Form } from "react-bootstrap";
+import { Container, Row, Col, Tab } from "react-bootstrap";
 import RelatedProduct from "@/components/product/related-product";
 import ProductList from "@/components/product/list";
 import Search from "@/components/search";
 import ReactPaginate from "react-paginate";
-import CallToAction from "@/components/callToAction";
 
 function ShopGrid() {
   const { products } = useSelector((state) => state.product);
@@ -31,17 +28,6 @@ function ShopGrid() {
   const { cartItems } = useSelector((state) => state.cart);
   const { wishlistItems } = useSelector((state) => state.wishlist);
   const { compareItems } = useSelector((state) => state.compare);
-
-  const getSortParams = (sortType, sortValue) => {
-    setSortType(sortType);
-    setSortValue(sortValue);
-  };
-
-
-  const getFilterSortParams = (sortType, sortValue) => {
-    setFilterSortType(sortType);
-    setFilterSortValue(sortValue);
-  };
 
   const [query, setQuery] = useState("");
   const keys = ["title"];
@@ -107,50 +93,6 @@ function ShopGrid() {
           <Row>
             <Col xs={12}>
               <Tab.Container defaultActiveKey="first">
-                <div className="ltn__shop-options">
-                  <ul>
-                    {/* <li>
-                      <div className="ltn__grid-list-tab-menu">
-                        <Nav className="nav">
-                          <Nav.Link eventKey="first">
-                            <FaThLarge />
-                          </Nav.Link>
-                          <Nav.Link eventKey="second">
-                            <FaThList />
-                          </Nav.Link>
-                        </Nav>
-                      </div>
-                    </li> */}
-
-                    {/* <li>
-                      <div className="short-by text-center">
-                        <Form.Select
-                          className="form-control nice-select"
-                          onChange={(e) =>
-                            getFilterSortParams("filterSort", e.target.value)
-                          }
-                        >
-                          <option value="default">Default</option>
-                          <option value="priceHighToLow">
-                            Price - High to Low
-                          </option>
-                          <option value="priceLowToHigh">
-                            Price - Low to High
-                          </option>
-                        </Form.Select>
-                      </div>
-                    </li> */}
-                    {/* <li>
-                      <div className="showing-product-number text-right">
-                        <span>
-                          {`Showing ${offset + pageLimit} of ${
-                            sortedProducts.length
-                          } results`}
-                        </span>
-                      </div>
-                    </li> */}
-                  </ul>
-                </div>
 
                 <Search spaceBottom="mb-30" setQuery={setQuery} />
                 <Tab.Content>
@@ -260,19 +202,6 @@ function ShopGrid() {
           </Row>
         </Container>
       </div>
-      {/* <!-- PRODUCT DETAILS AREA END -->
-
-    <!-- CALL TO ACTION START (call-to-action-6) --> */}
-      <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom">
-        <Container>
-          <Row>
-            <Col xs={12}>
-              <CallToAction />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      {/* <!-- CALL TO ACTION END --> */}
     </LayoutOne>
   );
 }

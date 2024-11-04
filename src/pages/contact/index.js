@@ -13,18 +13,7 @@ function ContactUs() {
           sectionPace=""
           currentSlug="Contact"
         />
-
         <Contact />
-
-        <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom">
-          <Container>
-            <Row>
-              <Col xs={12}>
-                <CallToAction />
-              </Col>
-            </Row>
-          </Container>
-        </div>
       </LayoutOne>
     </>
   );

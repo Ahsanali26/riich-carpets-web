@@ -89,7 +89,7 @@ function ShopList() {
   };
 
   return (
-    <LayoutOne topbar={true}>
+    <LayoutOne topbar={false}>
       {/* <!-- BREADCRUMB AREA START --> */}
 
       <ShopBreadCrumb
@@ -120,34 +120,6 @@ function ShopList() {
                         </Nav>
                       </div>
                     </li>
-
-                    {/* <li>
-                      <div className="short-by text-center">
-                        <Form.Select
-                          className="form-control nice-select"
-                          onChange={(e) =>
-                            getFilterSortParams("filterSort", e.target.value)
-                          }
-                        >
-                          <option value="default">Default</option>
-                          <option value="priceHighToLow">
-                            Price - High to Low
-                          </option>
-                          <option value="priceLowToHigh">
-                            Price - Low to High
-                          </option>
-                        </Form.Select>
-                      </div>
-                    </li> */}
-                    {/* <li>
-                      <div className="showing-product-number text-right">
-                        <span>
-                          {`Showing ${offset + pageLimit} of ${
-                            sortedProducts.length
-                          } results`}
-                        </span>
-                      </div>
-                    </li> */}
                   </ul>
                 </div>
 

@@ -27,16 +27,9 @@ function AboutUsSectionOne() {
                 </p>
               </div>
               <div className="ltn__feature-item ltn__feature-item-3">
-                {/* <div className="ltn__feature-icon">
-                  <span>
-                    <i className="flaticon-house-4"></i>
-                  </span>
-                </div> */}
                 <div className="ltn__feature-info">
                   <h4>
-                    {/* <Link href="https://quarter-nextjs.netlify.app/service/buy-a-home"> */}
                     Design
-                    {/* </Link> */}
                   </h4>
                   <p>
                     We understand that your space deserves nothing but the best. That's why we stand at the forefront of design trends
@@ -44,16 +37,9 @@ function AboutUsSectionOne() {
                 </div>
               </div>
               <div className="ltn__feature-item ltn__feature-item-3">
-                {/* <div className="ltn__feature-icon">
-                  <span>
-                    <i className="flaticon-call-center-agent"></i>
-                  </span>
-                </div> */}
                 <div className="ltn__feature-info">
                   <h4>
-                    {/* <Link href="https://quarter-nextjs.netlify.app/service/buy-a-home"> */}
-                      Innovation
-                    {/* </Link> */}
+                    Innovation
                   </h4>
                   <p>
                     Constantly innovating to bring you breathtaking handmade carpets and rugs that transcend the ordinary.
@@ -61,16 +47,9 @@ function AboutUsSectionOne() {
                 </div>
               </div>
               <div className="ltn__feature-item ltn__feature-item-3">
-                {/* <div className="ltn__feature-icon">
-                  <span>
-                    <i className="flaticon-maps-and-location"></i>
-                  </span>
-                </div> */}
                 <div className="ltn__feature-info">
                   <h4>
-                    {/* <Link href="https://quarter-nextjs.netlify.app/service/buy-a-home"> */}
-                      Sustainability
-                    {/* </Link> */}
+                    Sustainability
                   </h4>
                   <p>
                     Our commitment to sustainability ensures that every creation not only adds beauty to your surroundings but also aligns with eco-friendly practices.

@@ -1,18 +1,11 @@
 import { Form } from "react-bootstrap";
 import {
-  FaDribbble,
   FaInstagram,
-  FaTwitter,
   FaFacebookF,
-  FaCheck,
-  FaCalendarAlt,
   FaUserAlt,
   FaEnvelope,
-  FaGlobe,
   FaPencilAlt,
-  FaComments,
   FaPhoneAlt,
-  FaArrowDown,
 } from "react-icons/fa";
 import { useState } from "react";
 import { isFormValid } from "../../helpers";
@@ -80,9 +73,6 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
-                {/* <div className="ltn__contact-address-icon">
-                  <img src="/img/icons/10.png" alt="Icon Image" />
-                </div> */}
                 <h3>Email Address</h3>
                 <p>
                   Info@richcarpets.com
@@ -91,9 +81,6 @@ const Contact = () => {
             </div>
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
-                {/* <div className="ltn__contact-address-icon">
-                  <img src="/img/icons/11.png" alt="Icon Image" />
-                </div> */}
                 <h3>Phone Number</h3>
                 <p>
                   +966 57 041 1234 <br /> +971 55 630 1800
@@ -102,9 +89,6 @@ const Contact = () => {
             </div>
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
-                {/* <div className="ltn__contact-address-icon">
-                  <img src="/img/icons/12.png" alt="Icon Image" />
-                </div> */}
                 <h3>Office Address</h3>
                 <p>
                   PO BOX 8332, Jeddah 21482, Saudi Arabia <br />
@@ -230,13 +214,6 @@ const Contact = () => {
                   {form?.errors?.message ? (
                     <p className="invalid-text">{form?.errors?.message}</p>
                   ) : null}
-                  {/* <p>
-                    <label className="input-info-save mb-0">
-                      <input type="checkbox" name="agree" /> Save my name,
-                      email, and website in this browser for the next time I
-                      comment.
-                    </label>
-                  </p> */}
                   <div className="btn-wrapper mt-0">
                     <button
                       className="btn theme-btn-1 btn-effect-1 text-uppercase"

@@ -54,7 +54,7 @@ function Service() {
 
   return (
     <>
-      <LayoutOne topbar={true}>
+      <LayoutOne topbar={false}>
         <ShopBreadCrumb
           title="What We Do"
           sectionPace=""

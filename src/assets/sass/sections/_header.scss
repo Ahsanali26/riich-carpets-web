@@ -701,13 +701,9 @@
     width: 50px;
     height: 50px;
     background: var(--white);
-    box-shadow: var(--ltn__box-shadow-1);
-  }
-  .mobile-menu-toggle > button {
-    width: 50px;
-    height: 50px;
-    background: var(--white);
-    box-shadow: var(--ltn__box-shadow-1);
+    border: 2px solid var(--ltn__secondary-color);
+    border-radius: 4px;
+    // box-shadow: var(--ltn__box-shadow-1);
   }
 }
 
@@ -1828,12 +1824,12 @@
   .ltn__header-5 {
     .site-logo-wrap {
       flex: 0 0 100%;
-      justify-content: center;
-      margin: 10px 0 30px;
+      // justify-content: center;
+      margin: 10px 0 10px;
     }
     .ltn__header-options {
       margin-left: 0;
-      flex: 0 0 100%;
+      flex: 0;
       justify-content: center;
     }
   }

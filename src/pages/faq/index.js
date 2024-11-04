@@ -63,7 +63,7 @@ function Faq() {
 
   return (
     <>
-      <LayoutOne topbar={true}>
+      <LayoutOne topbar={false}>
         <ModalVideo
           channel="youtube"
           autoplay

@@ -485,6 +485,9 @@
       padding: 0 0 0 15px;
     }
   }
+  .ltn__header-options.custom-hamburger{
+    display: block !important;
+  }
 }
 
 @media (max-width: 767px) {
@@ -523,9 +526,6 @@
 
   .title-2 {
     font-size: 22px;
-  }
-  .ltn__header-options.custom-hamburger{
-    display: block !important;
   }
 }
 
@@ -5298,6 +5298,11 @@ input.cart-plus-minus-box {
     .ltn__video-play-btn {
       position: inherit;
       transform: inherit;
+    }
+  }
+  .about-us-img-wrap {
+    img {
+      min-height: 300px;
     }
   }
 }

@@ -48,7 +48,7 @@ function HeroSectionStyleTwo({ data }) {
   const Herosettings = {
     dots: false,
     arrows: false,
-    infinite: true,
+    infinite: false,
     autoplay: false,
     autoplaySpeed: 10000,
     speed: 500,
@@ -186,7 +186,7 @@ function HeroSectionStyleTwo({ data }) {
                             </div>
                             <div className="btn-wrapper animated">
                               <Link
-                                href="/about"
+                                href="/contact"
                                 className="theme-btn-1 btn btn-effect-1"
                               >
                                 {item.buttonText}

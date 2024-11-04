@@ -31,30 +31,47 @@ const Contact = () => {
 
   const submitForm = async (e) => {
     e.preventDefault();
-
+  
     if (!isFormValid(form.data, setForm).includes(false)) {
       setForm({ ...form, errors: {} });
-      const response = await fetch("http://localhost:5000", {
-        method: "POST",
-        body: JSON.stringify(form.data),
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      const data = await response.json();
-      setMessage(data.message);
-      setForm({
-        ...form,
-        data: {
-          name: "",
-          email: "",
-          number: "",
-          message: "",
-        },
-      });
+      try {
+        console.log("Form data being sent:", form.data); // Log form data
+  
+        const response = await fetch("/api/send-email", {  
+          method: "POST",
+          body: JSON.stringify({
+            name: form.data.name,
+            email: form.data.email,
+            phone: form.data.number,
+            message: form.data.message,
+          }),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+  
+        const data = await response.json();
+        
+        if (response.ok) {
+          setMessage("Thank you for contacting us! We will get back to you shortly.");
+          setForm({
+            ...form,
+            data: {
+              name: "",
+              email: "",
+              number: "",
+              message: "",
+            },
+          });
+        } else {
+          setMessage(`Failed to send message: ${data.error}`);
+        }
+      } catch (error) {
+        setMessage("An error occurred while sending your message. Please try again.");
+      }
     }
   };
-
+  
   return (
     <>
       {/* <!-- CONTACT ADDRESS AREA START --> */}
@@ -68,22 +85,21 @@ const Contact = () => {
                 </div> */}
                 <h3>Email Address</h3>
                 <p>
-                  inforichcarpets@gmail.com
-                  {/* jobs@webexample.com */}
+                  Info@richcarpets.com
                 </p>
               </div>
             </div>
-            {/* <div className="col-lg-4">
+            <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
-                <div className="ltn__contact-address-icon">
+                {/* <div className="ltn__contact-address-icon">
                   <img src="/img/icons/11.png" alt="Icon Image" />
-                </div>
+                </div> */}
                 <h3>Phone Number</h3>
                 <p>
-                  +0123-456789 <br /> +987-6543210
+                  +966 57 041 1234 <br /> +971 55 630 1800
                 </p>
               </div>
-            </div> */}
+            </div>
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
                 {/* <div className="ltn__contact-address-icon">
@@ -91,8 +107,8 @@ const Contact = () => {
                 </div> */}
                 <h3>Office Address</h3>
                 <p>
-                  18/A, New Born Town Hall <br />
-                  New York, US
+                  PO BOX 8332, Jeddah 21482, Saudi Arabia <br />
+                  and Sharjah, UAE
                 </p>
               </div>
             </div>
@@ -239,13 +255,12 @@ const Contact = () => {
       {/* <!-- CONTACT MESSAGE AREA END --> */}
 
       {/* <!-- GOOGLE MAP AREA START --> */}
-      {/* <div className="google-map mb-120">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9334.271551495209!2d-73.97198251485975!3d40.668170674982946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0456b5a2e7%3A0x68bdf865dda0b669!2sBrooklyn%20Botanic%20Garden%20Shop!5e0!3m2!1sen!2sbd!4v1590597267201!5m2!1sen!2sbd"
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1901295.916358017!2d39.211149!3d21.450123!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d01fb1137e59%3A0xe059579737b118db!2sJeddah%20Saudi%20Arabia!5e0!3m2!1sen!2sin!4v1691691130508!5m2!1sen!2sin" 
           width="100%"
           height="100%"
-        ></iframe>
-      </div> */}
+          className="google-map mb-120"
+        />
       {/* <!-- GOOGLE MAP AREA END --> */}
     </>
   );

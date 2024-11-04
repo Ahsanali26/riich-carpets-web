@@ -508,7 +508,7 @@ ol li {
 .section-bg-2,
 .section-bg-6,
 .section-bg-7 {
-  background-color: var(--section-bg-2);
+  // background-color: var(--section-bg-2);
   h1,
   h2,
   h3,
@@ -522,7 +522,7 @@ ol li {
   span,
   tr,
   td {
-    color: var(--white);
+    // color: var(--white);
   }
   .ltn__separate-line .separate-icon {
     background-color: var(--black-2);
@@ -622,7 +622,7 @@ ol li {
   background-color: var(--section-bg-6);
 }
 .section-bg-7 {
-  background-color: var(--section-bg-7);
+  background-color: var(--section-bg-1);
 }
 .text-color-white {
   color: var(--white);
@@ -2506,6 +2506,14 @@ ul {
 @media (max-width: 767px) {
   .mb-sm-20 {
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .last-footer-title{
+    display: none;
+  }
+  .footer-widget {
+    margin-bottom: 40px !important;
   }
 }
 /* Margin Bottom Minus */

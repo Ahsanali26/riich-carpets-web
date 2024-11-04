@@ -17,22 +17,23 @@ const Footer = function () {
   return (
     <>
       {/* <!-- FOOTER AREA START --> */}
-      {/* <footer className="ltn__footer-area  ">
+      <footer className="ltn__footer-area  ">
         <div className="footer-top-area  section-bg-2 plr--5">
           <Container fluid>
             <Row>
               <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-about-widget">
-                  <div className="footer-logo">
-                    <div className="site-logo">
-                      <img src="/img/logo-2.png" alt="Logo" />
+                  <Link href={'/'}>
+                    <div className="footer-logo">
+                      <div className="site-logo">
+                        <img src="/img/logo.png" alt="Logo" width="150" />
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                   <p>
-                    Lorem Ipsum is simply dummy text of the and typesetting
-                    industry. Lorem Ipsum is dummy text of the printing.
+                    Your Trusted Partner in Custom-Made Elegance
                   </p>
-                  <div className="footer-address">
+                  {/* <div className="footer-address">
                     <ul>
                       <li>
                         <div className="footer-address-icon">
@@ -65,7 +66,7 @@ const Footer = function () {
                         </div>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   <div className="ltn__social-media mt-20">
                     <ul>
                       <li>
@@ -92,7 +93,7 @@ const Footer = function () {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} sm={6} xl={2}>
+              <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-menu-widget clearfix">
                   <h4 className="footer-title">Company</h4>
                   <div className="footer-menu">
@@ -100,72 +101,18 @@ const Footer = function () {
                       <li>
                         <Link href="/about">About</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/blog">Blog</Link>
-                      </li>
+                      </li> */}
                       <li>
-                        <Link href="/shop">All Products</Link>
+                        <Link href="/shop/grid">All Products</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/locations">Locations Map</Link>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <Link href="/faq">FAQ</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Contact us</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </Col>
-              <Col xs={12} sm={6} xl={2}>
-                <div className="footer-widget footer-menu-widget clearfix">
-                  <h4 className="footer-title">Services</h4>
-                  <div className="footer-menu">
-                    <ul>
-                      <li>
-                        <Link href="/order-tracking">Order tracking</Link>
-                      </li>
-                      <li>
-                        <Link href="/wishlist">Wish List</Link>
-                      </li>
-                      <li>
-                        <Link href="/login">Login</Link>
-                      </li>
-                      <li>
-                        <Link href="/my-account">My account</Link>
-                      </li>
-                      <li>
-                        <Link href="/about">Terms & Conditions</Link>
-                      </li>
-                      <li>
-                        <Link href="/about">Promotional Offers</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </Col>
-              <Col xs={12} sm={6} xl={2}>
-                <div className="footer-widget footer-menu-widget clearfix">
-                  <h4 className="footer-title">Customer Care</h4>
-                  <div className="footer-menu">
-                    <ul>
-                      <li>
-                        <Link href="/login">Login</Link>
-                      </li>
-                      <li>
-                        <Link href="/my-account">My account</Link>
-                      </li>
-                      <li>
-                        <Link href="/wishlist">Wish List</Link>
-                      </li>
-                      <li>
-                        <Link href="/order-tracking">Order tracking</Link>
-                      </li>
-                      <li>
-                        <Link href="/faq">FAQ</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/contact">Contact us</Link>
                       </li>
@@ -174,6 +121,42 @@ const Footer = function () {
                 </div>
               </Col>
               <Col xs={12} sm={6} xl={3}>
+                <div className="footer-widget footer-menu-widget clearfix">
+                  <h4 className="footer-title">Our Products</h4>
+                  <div className="footer-menu">
+                    <ul>
+                      <li>
+                        <Link href="/shop/hand-tufted">Hand Tufted</Link>
+                      </li>
+                      <li>
+                        <Link href="/shop/hand-loom">Hand Loom</Link>
+                      </li>
+                      <li>
+                        <Link href="/shop/hand-knotted">Hand Knotted</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </Col>
+              <Col xs={12} sm={6} xl={3}>
+                <div className="footer-widget footer-menu-widget clearfix">
+                  <h4 className="footer-title last-footer-title invisible">Customer Care</h4>
+                  <div className="footer-menu">
+                    <ul>
+                      <li>
+                        <Link href="/shop/spc-flooring">SPC Flooring</Link>
+                      </li>
+                      <li>
+                        <Link href="/shop/axminster">Axminster</Link>
+                      </li>
+                      <li>
+                        <Link href="/shop/printed-nylon">Printed Nylon</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </Col>
+              {/* <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-newsletter-widget">
                   <h4 className="footer-title">Newsletter</h4>
                   <p>
@@ -194,17 +177,17 @@ const Footer = function () {
                   <h5 className="mt-30">We Accept</h5>
                   <img src="/img/icons/payment-4.png" alt="Payment Image" />
                 </div>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </div>
-        <div className="ltn__copyright-area ltn__copyright-2 section-bg-7  plr--5">
+        <div className="ltn__copyright-area ltn__copyright-2 section-bg-7 plr--5 custom-footer">
           <div className="container-fluid ltn__border-top-2">
             <Row>
               <Col xs={12} md={6}>
                 <div className="ltn__copyright-design clearfix">
                   <p>
-                    All Rights Reserved @ Company{" "}
+                    All Rights Reserved by <b>Riich Carpets & Rugs</b>
                     <span className="current-year"></span>
                   </p>
                 </div>
@@ -213,13 +196,7 @@ const Footer = function () {
                 <div className="ltn__copyright-menu text-end">
                   <ul>
                     <li>
-                      <Link href="#">Terms & Conditions</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Claim</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Privacy & Policy</Link>
+                      <Link href="terms-and-condition">Terms & Conditions</Link>
                     </li>
                   </ul>
                 </div>
@@ -227,7 +204,7 @@ const Footer = function () {
             </Row>
           </div>
         </div>
-      </footer> */}
+      </footer>
       {/* <!-- FOOTER AREA END --> */}
     </>
   );

@@ -8,6 +8,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import clsx from "clsx";
 import MenuList from "@/components/header/elements/menuList";
+import Image from "next/image";
 const HeaderTransparent = function ({ SetToggleClassName, topbar }) {
   const [cartMenuOpener, cartMenuOpenerSet] = useState(false);
   const [overlayBtn, SetoverlayBtn] = useState(false);
@@ -74,7 +75,14 @@ const HeaderTransparent = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo-2.png" alt="Logo" />
+                      {/* <img src="/img/logo-2.png" alt="Logo" /> */}
+                      <Image
+                        src="/img/logo.svg"
+                        alt="Logo"
+                        width="160"
+                        height="80"
+                        className="img-position-inherit"
+                      />
                     </Link>
                   </div>
                 </div>

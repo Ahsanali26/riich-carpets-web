@@ -3,6 +3,7 @@ import { FaTimes } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { getDiscountPrice, productSlug } from "@/lib/product";
 import { deleteFromCart } from "@/store/slices/cart-slice";
+import Image from "next/image";
 const HeaderCartMenu = function ({ cartMenuOpener, closeSideBar }) {
   let cartTotalPrice = 0;
   const { cartItems } = useSelector((state) => state.cart);
@@ -22,7 +23,8 @@ const HeaderCartMenu = function ({ cartMenuOpener, closeSideBar }) {
           </button>
         </div>
 
-        {cartItems.length > 0 ? <>
+        {cartItems.length > 0 ? (
+          <>
             <div className="mini-cart-product-area ltn__scrollbar">
               {cartItems.map((product, key) => {
                 let imagecount = key + 1;
@@ -36,9 +38,15 @@ const HeaderCartMenu = function ({ cartMenuOpener, closeSideBar }) {
                   <div key={key} className="mini-cart-item clearfix">
                     <div className="mini-cart-img">
                       <Link href={`/shop/${slug}`}>
-                        <img
+                        {/* <img
                           src={`/img/product/${imagecount}.png`}
                           alt="Image"
+                        /> */}
+                        <Image
+                          src={`/img/product/${imagecount}.png`}
+                          alt="Image"
+                          fill
+                          className="img-position-inherit"
                         />
                       </Link>
                       <span
@@ -78,7 +86,10 @@ const HeaderCartMenu = function ({ cartMenuOpener, closeSideBar }) {
               </div>
               <p>Free Shipping on All Orders Over $100!</p>
             </div>
-          </> : <p>No products in mini cart</p>}
+          </>
+        ) : (
+          <p>No products in mini cart</p>
+        )}
       </div>
     </div>
   );

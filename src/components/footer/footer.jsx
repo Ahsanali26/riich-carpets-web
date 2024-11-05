@@ -8,6 +8,7 @@ import {
   FaLinkedin,
   FaYoutube,
 } from "react-icons/fa";
+import Image from "next/image";
 
 const Footer = function () {
   return (
@@ -22,7 +23,14 @@ const Footer = function () {
                   <Link href={'/'}>
                     <div className="footer-logo">
                       <div className="site-logo">
-                        <img src="/img/logo.svg" alt="Logo" width="150" />
+                        {/* <img src="/img/logo.svg" alt="Logo" width="150" /> */}
+                        <Image
+                          src="/img/logo.svg"
+                          alt="Logo"
+                          width="160"
+                          height="80"
+                          className="img-position-inherit"
+                        />
                       </div>
                     </div>
                   </Link>

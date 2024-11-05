@@ -5,7 +5,6 @@ import { getSortedProducts, productSlug, getDiscountPrice } from "@/lib/product"
 import { LayoutOne } from "@/layouts";
 import { FaThLarge, FaThList, FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 import { Container, Row, Col, Nav, Tab, Form } from "react-bootstrap";
-import SideBar from "@/components/shopSideBar";
 import RelatedProduct from "@/components/product/related-product";
 import ProductList from "@/components/product/list";
 import Search from "@/components/search";
@@ -228,9 +227,6 @@ function Shop() {
                   renderOnZeroPageCount={null}
                 />
               </div>
-            </Col>
-            <Col xs={12} lg={4}>
-              <SideBar products={products} getSortParams={getSortParams} />
             </Col>
           </Row>
         </Container>

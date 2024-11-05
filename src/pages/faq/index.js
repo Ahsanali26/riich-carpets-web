@@ -9,12 +9,8 @@ import {
   FaRegEnvelopeOpen,
   FaPhoneAlt,
 } from "react-icons/fa";
-import Slider from "react-slick";
-import { productSlug } from "@/lib/product";
 import TitleSection from "@/components/titleSection";
 import ShopBreadCrumb from "@/components/breadCrumbs/shop";
-import BlogItem from "@/components/blog";
-import blogData from "@/data/blog";
 import CallToAction from "@/components/callToAction";
 import Accordion from "react-bootstrap/Accordion";
 import ModalVideo from "react-modal-video";
@@ -22,43 +18,6 @@ import Link from "next/link";
 
 function Faq() {
   const [isOpen, setOpen] = useState(false);
-
-  const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
-    <button
-      {...props}
-      className={
-        "slick-prev slick-arrow" + (currentSlide === 0 ? " slick-disabled" : "")
-      }
-      aria-hidden="true"
-      aria-disabled={currentSlide === 0 ? true : false}
-      type="button"
-    >
-      <FaArrowLeft />
-    </button>
-  );
-  const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
-    <button
-      {...props}
-      className={
-        "slick-next slick-arrow" +
-        (currentSlide === slideCount - 1 ? " slick-disabled" : "")
-      }
-      aria-hidden="true"
-      aria-disabled={currentSlide === slideCount - 1 ? true : false}
-      type="button"
-    >
-      <FaArrowRight />
-    </button>
-  );
-  const blogSettings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    prevArrow: <SlickArrowLeft />,
-    nextArrow: <SlickArrowRight />,
-  };
 
   return (
     <>
@@ -290,22 +249,6 @@ function Faq() {
                 />
               </Col>
             </Row>
-            <Slider
-              {...blogSettings}
-              className="ltn__blog-slider-one-active slick-arrow-1 ltn__blog-item-3-normal"
-            >
-              {blogData.map((data, key) => {
-                const slug = productSlug(data.title);
-                return (
-                  <BlogItem
-                  key={key}
-                  baseUrl="blog"
-                  data={data}
-                  slug={slug}
-                />
-                );
-              })}
-            </Slider>
           </Container>
         </div>
         {/* <!-- BLOG AREA END --> */}

@@ -11,6 +11,7 @@ import Col from "react-bootstrap/Col";
 import clsx from "clsx";
 import { FaCartArrowDown, FaRegUser, FaSearch, FaTimes } from "react-icons/fa";
 import MenuList from "@/components/header/elements/menuList";
+import Image from "next/image";
 const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
   const [searchFormOpener, searchFormOpenerSet] = useState(false);
 
@@ -64,22 +65,6 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
     setScroll(window.scrollY);
   };
 
-  const { products } = useSelector((state) => state.product);
-  const [currentItems, setCurrentItems] = useState([]);
-
-  const [query, setQuery] = useState("");
-  const keys = ["title"];
-  const SearchProduct = (data) => {
-    return data.filter((item) =>
-      keys.some((key) => item[key].toLowerCase().includes(query))
-    );
-  };
-
-  const updatedProducts = query.length ? SearchProduct(products) : [];
-
-  useEffect(() => {
-    setCurrentItems(updatedProducts);
-  }, [products, query]);
 
   return (
     <>
@@ -102,7 +87,14 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo.svg" alt="Logo" width={160} />
+                      {/* <img src="/img/logo.svg" alt="Logo" width={160} /> */}
+                      <Image
+                        src="/img/logo.svg"
+                        alt="Logo"
+                        width="160"
+                        height="80"
+                        className="img-position-inherit"
+                      />
                     </Link>
                   </div>
                 </div>

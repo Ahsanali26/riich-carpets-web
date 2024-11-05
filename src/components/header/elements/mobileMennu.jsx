@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
@@ -14,7 +15,14 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__utilize-menu-head">
             <div className="site-logo">
               <Link href="/">
-                <img src="/img/logo.svg" alt="Logo" width={120} />
+                {/* <img src="/img/logo.svg" alt="Logo" width={120} /> */}
+                <Image
+                  src="/img/logo.svg"
+                  alt="Riich carpets & rugs"
+                  width={140}
+                  height={50}
+                  className="img-position-inherit"
+                />
               </Link>
             </div>
             <button onClick={closeSideBar} className="ltn__utilize-close">

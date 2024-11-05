@@ -2,6 +2,7 @@ import Link from "next/link";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "next/image";
 
 function AboutUsSectionOne() {
   return (
@@ -10,7 +11,13 @@ function AboutUsSectionOne() {
         <Row>
           <Col xs={12} lg={6} className="align-self-center">
             <div className="about-us-img-wrap about-img-left">
-              <img src="/img/others/spc-flooring.jpeg" alt="Spc Flooring" />
+              {/* <img src="/img/others/spc-flooring.jpeg" alt="Spc Flooring" /> */}
+              <Image
+                src="/img/others/spc-flooring.jpeg" 
+                alt="Spc Flooring"
+                fill
+                className="img-position-inherit"
+              />
             </div>
           </Col>
           <Col xs={12} lg={6} className="align-self-center">
@@ -32,7 +39,7 @@ function AboutUsSectionOne() {
                     Design
                   </h4>
                   <p>
-                    We understand that your space deserves nothing but the best. That's why we stand at the forefront of design trends
+                    {`We understand that your space deserves nothing but the best. That's why we stand at the forefront of design trends`}
                   </p>
                 </div>
               </div>

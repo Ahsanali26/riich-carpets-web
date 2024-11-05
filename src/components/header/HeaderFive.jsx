@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getDiscountPrice, productSlug } from "@/lib/product";
+import { productSlug } from "@/lib/product";
 import Link from "next/link";
 import HeaderCartMenu from "./elements/headerCartMenu";
 import MobileMenu from "./elements/mobileMennu";
@@ -10,6 +9,7 @@ import Col from "react-bootstrap/Col";
 import clsx from "clsx";
 import { FaSearch, FaPhoneAlt, FaCartArrowDown } from "react-icons/fa";
 import MenuList from "@/components/header/elements/menuList";
+import Image from "next/image";
 const HeaderStyleFive = function ({ SetToggleClassName }) {
   const [cartMenuOpener, cartMenuOpenerSet] = useState(false);
   const [overlayBtn, SetoverlayBtn] = useState(false);
@@ -60,33 +60,7 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
     setScroll(window.scrollY);
   };
 
-  const { products } = useSelector((state) => state.product);
   const [currentItems, setCurrentItems] = useState([]);
-
-  const [query, setQuery] = useState("");
-  const keys = ["title"];
-  const SearchProduct = (data) => {
-    return data.filter((item) =>
-      keys.some((key) => item[key].toLowerCase().includes(query))
-    );
-  };
-
-  const updatedProducts = query.length ? SearchProduct(products) : [];
-
-  useEffect(() => {
-    setCurrentItems(updatedProducts);
-  }, [products, query]);
-
-  let cartTotalPrice = 0;
-  const { cartItems } = useSelector((state) => state.cart);
-
-  cartItems.map((product, key) => {
-    const discountedPrice = getDiscountPrice(
-      product.price,
-      product.discount
-    ).toFixed(2);
-    cartTotalPrice += discountedPrice * product.quantity;
-  });
 
   return (
     <>
@@ -99,7 +73,14 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo.png" alt="Logo" />
+                      {/* <img src="/img/logo.png" alt="Logo" /> */}
+                      <Image
+                        src="/img/logo.svg"
+                        alt="Logo"
+                        width="160"
+                        height="80"
+                        className="img-position-inherit"
+                      />
                     </Link>
                   </div>
                 </div>
@@ -280,13 +261,6 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
           <Container>
             <Row>
               <Col className="header-menu-column justify-content-center">
-                <div className="sticky-logo">
-                  <div className="site-logo">
-                    <Link href="/">
-                      <img src="/img/logo.png" alt="Logo" />
-                    </Link>
-                  </div>
-                </div>
                 <div className="header-menu header-menu-2">
                   <nav>
                     <div className="ltn__main-menu">

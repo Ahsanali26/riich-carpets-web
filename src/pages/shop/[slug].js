@@ -119,7 +119,8 @@ function ProductDetails({ product }) {
                     <Link href="#">
                       <img
                         src={`/img/product-3/${single.img}`}
-                        alt={`${single.title}`}
+                        alt={product.title}
+                        loading="lazy"
                       />
                     </Link>
                   </div>

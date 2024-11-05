@@ -116,6 +116,7 @@ function ProductDetails({ product }) {
                         <img
                           src={`/img/product-3/${single.img}`}
                           alt={`${single.title}`}
+                          loading="lazy"
                         />
                       </Link>
                     </div>

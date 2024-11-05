@@ -52,15 +52,17 @@ const RelatedProduct = ({
             <img
               src={`/img/product-3/${productData.productImg}`}
               alt={`${productData.title}`}
+              loading="lazy"
             />
           </Link>
           <div className="real-estate-agent">
             <div className="agent-img">
               <Link href={`/${slug}`}>
-                <img
+                {/* <img
                   src={`/img/blog/author.jpg`}
                   alt={`${productData.title}`}
-                />
+                  loading="lazy"
+                /> */}
               </Link>
             </div>
           </div>

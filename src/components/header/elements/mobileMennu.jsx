@@ -18,7 +18,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                 {/* <img src="/img/logo.svg" alt="Logo" width={120} /> */}
                 <Image
                   src="/img/logo.svg"
-                  alt="Riich carpets & rugs"
+                  alt="Rich carpets & rugs"
                   width={140}
                   height={50}
                   className="img-position-inherit"

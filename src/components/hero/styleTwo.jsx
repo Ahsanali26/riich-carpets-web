@@ -10,6 +10,7 @@ import {
   FaDribbble,
   FaTwitter,
   FaFacebookF,
+  FaInstagram,
 } from "react-icons/fa";
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -191,24 +192,6 @@ function HeroSectionStyleTwo({ data }) {
                               >
                                 {item.buttonText}
                               </Link>
-
-                              {item.videoButton ? (
-                                <button
-                                  onClick={() => setOpen(true)}
-                                  className="ltn__video-play-btn bg-white"
-                                >
-                                  <FaPlay className="icon-play  ltn__secondary-color" />
-                                </button>
-                              ) : (
-                                // <Link
-                                // href="/about"
-                                //   className="btn btn-transparent btn-effect-3"
-                                // >
-                                //   {item.learnMoreButtonText}
-                                // </Link>
-
-                                null
-                              )}
                             </div>
                           </div>
                         </div>
@@ -217,7 +200,10 @@ function HeroSectionStyleTwo({ data }) {
                             item.variationLeft ? "slide-img-left" : ""
                           }`}
                         >
-                          <img src={`/img/slider/${item.heroimage}`} alt="#" />
+                          <img
+                            src={`/img/slider/${item.heroimage}`}
+                            alt="Rich Carpet & Rugs"
+                          />
                         </div>
                       </Col>
                     </Row>
@@ -232,18 +218,19 @@ function HeroSectionStyleTwo({ data }) {
         <div className="slider-sticky-icon-2">
           <ul>
             <li>
-              <Link href="#">
+              <Link
+                href="www.facebook.com/profile.php?id=61556672355815"
+                title="Facebook"
+              >
                 <FaFacebookF />
               </Link>
             </li>
             <li>
-              <Link href="#">
-                <FaTwitter />
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                <FaDribbble />
+              <Link
+                href="www.instagram.com/richcarpetsarabia?igsh=NmJxd2RxdWNldmls&utm_source=qr"
+                title="Instagram"
+              >
+                <FaInstagram />
               </Link>
             </li>
           </ul>
@@ -260,7 +247,7 @@ function HeroSectionStyleTwo({ data }) {
               {data.map((item, key) => {
                 return (
                   <div className="image-slide-item" key={key}>
-                    <img src={`/img/slider/${item.heroimage}`} alt="#" />
+                    <img src={`/img/slider/${item.heroimage}`} alt="#" loading="lazy" />
                   </div>
                 );
               })}

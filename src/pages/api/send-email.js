@@ -33,7 +33,7 @@ const getMessage = (name, email, message, phone) => {
       <p>${phone || "No Phone Provided"}</p>
       <h3>Customer Message:</h3>
       <p>${message || "No Message Provided"}</p>
-      <p><small>This is an auto-generated email on submission of contact form on the <b>RIICH CARPETS & RUGS</b> website.</small></p>
+      <p><small>This is an auto-generated email on submission of contact form on the <b>RICH CARPETS & RUGS</b> website.</small></p>
   </body>
   
   </html>`;

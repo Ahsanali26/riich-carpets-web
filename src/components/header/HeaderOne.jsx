@@ -91,7 +91,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                       <Image
                         src="/img/logo.svg"
                         alt="Logo"
-                        width="160"
+                        width="180"
                         height="80"
                         className="img-position-inherit"
                       />

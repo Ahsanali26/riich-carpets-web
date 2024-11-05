@@ -16,6 +16,7 @@ function AboutUsSectionOne() {
                 src="/img/others/spc-flooring.jpeg" 
                 alt="Spc Flooring"
                 fill
+                loading="lazy"
                 className="img-position-inherit"
               />
             </div>
@@ -30,7 +31,7 @@ function AboutUsSectionOne() {
                   Our Commitments
                 </h1>
                 <p>
-                At RIICH, we pride ourselves on providing exceptional value and service through our friendly, knowledgeable team. We specialize in bespoke carpets and rugs, tailored to transform your space according to your unique vision.
+                At RICH, we pride ourselves on providing exceptional value and service through our friendly, knowledgeable team. We specialize in bespoke carpets and rugs, tailored to transform your space according to your unique vision.
                 </p>
               </div>
               <div className="ltn__feature-item ltn__feature-item-3">

@@ -7,6 +7,7 @@ import {
   FaTwitter,
   FaLinkedin,
   FaYoutube,
+  FaInstagram,
 } from "react-icons/fa";
 import Image from "next/image";
 
@@ -20,43 +21,37 @@ const Footer = function () {
             <Row>
               <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-about-widget">
-                  <Link href={'/'}>
+                  <Link href={"/"}>
                     <div className="footer-logo">
                       <div className="site-logo">
                         {/* <img src="/img/logo.svg" alt="Logo" width="150" /> */}
                         <Image
                           src="/img/logo.svg"
                           alt="Logo"
-                          width="160"
+                          width="180"
                           height="80"
                           className="img-position-inherit"
                         />
                       </div>
                     </div>
                   </Link>
-                  <p>
-                    Your Trusted Partner in Custom-Made Elegance
-                  </p>
+                  <p>Where luxury meets style</p>
                   <div className="ltn__social-media mt-20">
                     <ul>
                       <li>
-                        <Link href="#" title="Facebook">
+                        <Link
+                          href="www.facebook.com/profile.php?id=61556672355815"
+                          title="Facebook"
+                        >
                           <FaFacebookF />
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" title="Twitter">
-                          <FaTwitter />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#" title="Linkedin">
-                          <FaLinkedin />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#" title="Youtube">
-                          <FaYoutube />
+                        <Link
+                          href="www.instagram.com/richcarpetsarabia?igsh=NmJxd2RxdWNldmls&utm_source=qr"
+                          title="Instagram"
+                        >
+                          <FaInstagram />
                         </Link>
                       </li>
                     </ul>
@@ -101,7 +96,9 @@ const Footer = function () {
               </Col>
               <Col xs={12} sm={6} xl={3}>
                 <div className="footer-widget footer-menu-widget clearfix">
-                  <h4 className="footer-title last-footer-title invisible">Customer Care</h4>
+                  <h4 className="footer-title last-footer-title invisible">
+                    Customer Care
+                  </h4>
                   <div className="footer-menu">
                     <ul>
                       <li>
@@ -126,7 +123,7 @@ const Footer = function () {
               <Col xs={12} md={6}>
                 <div className="ltn__copyright-design clearfix">
                   <p>
-                    All Rights Reserved by <b>Riich Carpets & Rugs</b>
+                    All Rights Reserved by <b>Rich Carpets & Rugs</b>
                     <span className="current-year"></span>
                   </p>
                 </div>

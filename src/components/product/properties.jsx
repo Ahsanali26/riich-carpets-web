@@ -5,7 +5,7 @@ const PropertyItem = ({ product, slug,baseUrl }) => {
       <div className="ltn__search-by-place-item">
         <div className="search-by-place-img">
           <Link href={`${baseUrl}/${slug}`}>
-            <img src={`/img/product-3/${product.productImg}`} alt="#" />
+            <img src={`/img/product-3/${product.productImg}`} alt={product.district} loading="lazy" />
           </Link>
           {/* <div className="search-by-place-badge">
             <ul>

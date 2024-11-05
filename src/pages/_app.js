@@ -37,8 +37,8 @@ const MyApp = ({ Component, ...rest }) => {
   return (
     <Fragment>
       <Head>
-        <title>Riich - Carpets and Rugs</title>
-        <meta name="description" content="Riich - Carpets and Rugs" />
+        <title>Rich - Carpets and Rugs</title>
+        <meta name="description" content="Rich Carpets and Rugs - Where luxury meets style" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

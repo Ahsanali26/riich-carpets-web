@@ -3532,9 +3532,11 @@ blockquote {
 ---------------------------------------------------- */
 .ltn__contact-address-item {
   padding: 40px 30px 10px;
-  text-align: center;
+  // text-align: center;
   box-shadow: var(--ltn__box-shadow-2);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+
+  
 
   i {
     background-color: transparent;
@@ -3605,8 +3607,13 @@ blockquote {
 
 .ltn__contact-address-item-3 {
   box-shadow: none;
-  border: 2px solid var(--border-color-11);
-  padding: 50px 30px 25px;
+  // border: 2px solid var(--border-color-11);
+  padding: 30px 10px 25px;
+  background-color: #fff;
+
+  @media (max-width: 767px) {
+    padding: 10px 0px 5px;
+  }
 
   i {
     font-size: 50px;

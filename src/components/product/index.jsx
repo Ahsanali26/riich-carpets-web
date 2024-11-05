@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { FaFilm, FaCamera } from "react-icons/fa";
-import QuickViewtModal from "@/components/modals/quickViewModal";
+// import QuickViewtModal from "@/components/modals/quickViewModal";
 import { useDispatch } from "react-redux";
 import { addToCart } from "@/store/slices/cart-slice";
 import {
@@ -206,7 +206,7 @@ const ProductItem = ({
         </div>
       </div>
 
-      <QuickViewtModal
+      {/* <QuickViewtModal
         productData={productData}
         show={modalShow}
         onHide={() => setModalShow(false)}
@@ -216,7 +216,7 @@ const ProductItem = ({
         cartitem={cartItem}
         wishlistitem={wishlistItem}
         compareitem={compareItem}
-      />
+      /> */}
     </>
   );
 };

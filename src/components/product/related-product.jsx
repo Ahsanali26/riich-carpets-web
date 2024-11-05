@@ -6,7 +6,7 @@ import {
   addToWishlist,
   deleteFromWishlist,
 } from "@/store/slices/wishlist-slice";
-import QuickViewtModal from "@/components/modals/quickViewModal";
+// import QuickViewtModal from "@/components/modals/quickViewModal";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 const RelatedProduct = ({
@@ -156,7 +156,7 @@ const RelatedProduct = ({
         </div> */}
       </div>
 
-      <QuickViewtModal
+      {/* <QuickViewtModal
         productData={productData}
         show={modalShow}
         onHide={() => setModalShow(false)}
@@ -166,7 +166,7 @@ const RelatedProduct = ({
         cartitem={cartItem}
         wishlistitem={wishlistItem}
         compareitem={compareItem}
-      />
+      /> */}
     </>
   );
 };

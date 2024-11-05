@@ -19,7 +19,6 @@ import CallToAction from "@/components/callToAction";
 import Accordion from "react-bootstrap/Accordion";
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
-import CounterUp from "@/components/counterUp";
 
 function Faq() {
   const [isOpen, setOpen] = useState(false);
@@ -275,10 +274,6 @@ function Faq() {
           </div>
         </div>
         {/* <!-- FAQ AREA START --> */}
-
-        {/* <!-- COUNTER UP AREA START -->  */}
-        <CounterUp />
-        {/* <!-- COUNTER UP AREA END -->
 
         {/* <!-- BLOG AREA START (blog-3) -->  */}
         <div className="ltn__blog-area pt-120 pb-70">
